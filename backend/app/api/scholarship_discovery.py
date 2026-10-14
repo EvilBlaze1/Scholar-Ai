@@ -1,7 +1,11 @@
 
+import logging
+
 from fastapi import APIRouter, HTTPException, Query
 
 from app.search.web_search import search_web
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(
     prefix="/discovery",
@@ -53,11 +57,19 @@ def discover_scholarships(
 
             seen_urls.add(normalized_url)
 
-            unique_results.append({
-                "title": result.get("title") or "Scholarship opportunity",
-                "url": url,
-                "description": result.get("description") or "",
-            })
+            unique_results.append(
+                {
+                    "title": result.get("title") or "Scholarship opportunity",
+                    "url": url,
+                    "description": result.get("description") or "",
+                }
+            )
+
+        logger.info(
+            "Scholarship discovery completed: query=%r, results=%d",
+            q.strip(),
+            len(unique_results),
+        )
 
         return {
             "query": q.strip(),
@@ -65,8 +77,15 @@ def discover_scholarships(
             "results": unique_results,
         }
 
-    except Exception as error:
+    except Exception:
+        # Log the full traceback on the backend, without exposing
+        # provider details or credentials to the frontend.
+        logger.exception(
+            "Scholarship discovery failed for query=%r",
+            q.strip(),
+        )
+
         raise HTTPException(
             status_code=502,
             detail="Scholarship discovery failed. Please try again.",
-        ) from error
+        ) from None
