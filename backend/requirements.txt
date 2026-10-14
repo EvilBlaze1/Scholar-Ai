@@ -2,3 +2,7 @@ fastapi[standard]
 pymongo
 python-dotenv
 pytest
+python-jose[cryptography]
+pwdlib[argon2]
+requests
+beautifulsoup4

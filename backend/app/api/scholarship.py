@@ -4,6 +4,7 @@ from app.schemas import ScholarshipCreate
 from app.services.scholarship_service import (
     register_scholarship,
     fetch_scholarship,
+    fetch_all_scholarships,
 )
 
 
@@ -18,6 +19,21 @@ def create_scholarship(scholarship: ScholarshipCreate):
     scholarship_data = scholarship.model_dump()
 
     return register_scholarship(scholarship_data)
+
+
+@router.get("/")
+def get_scholarships(
+    category: str | None = None,
+    state: str | None = None,
+    education_level: str | None = None,
+    course: str | None = None,
+):
+    return fetch_all_scholarships(
+        category=category,
+        state=state,
+        education_level=education_level,
+        course=course,
+    )
 
 
 @router.get("/{scholarship_id}")

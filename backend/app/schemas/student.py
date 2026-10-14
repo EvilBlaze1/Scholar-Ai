@@ -3,7 +3,8 @@ from typing import Optional
 
 
 class StudentCreate(BaseModel):
-    full_name: str = Field(..., min_length=2)
+    full_name: str = Field(..., min_length=2, max_length=100)
+
     date_of_birth: Optional[str] = None
     gender: Optional[str] = None
     state: Optional[str] = None
@@ -14,10 +15,18 @@ class StudentCreate(BaseModel):
     college: Optional[str] = None
     academic_year: Optional[str] = None
 
-    score: Optional[float] = None
+    score: Optional[float] = Field(
+        default=None,
+        ge=0,
+        le=100
+    )
+
     score_type: Optional[str] = None
 
-    annual_family_income: Optional[float] = None
+    annual_family_income: Optional[float] = Field(
+        default=None,
+        ge=0
+    )
 
     category: Optional[str] = None
     domicile_state: Optional[str] = None
