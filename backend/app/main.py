@@ -22,7 +22,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://scholar-ai.vercel.app",
+        "https://scholar-ai-ebon.vercel.app",
         "https://scholar-ai-git-master-evilblaze1.vercel.app",
     ],
     allow_credentials=True,
