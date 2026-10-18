@@ -35,7 +35,6 @@ def discover_scholarships(
         if not isinstance(results, list):
             raise RuntimeError("Unexpected search provider response")
 
-        # Remove duplicate URLs while preserving result order.
         unique_results = []
         seen_urls = set()
 
@@ -78,8 +77,6 @@ def discover_scholarships(
         }
 
     except Exception:
-        # Log the full traceback on the backend, without exposing
-        # provider details or credentials to the frontend.
         logger.exception(
             "Scholarship discovery failed for query=%r",
             q.strip(),
