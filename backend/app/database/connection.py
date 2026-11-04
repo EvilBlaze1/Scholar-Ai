@@ -20,12 +20,11 @@ if not MONGODB_URI:
     raise ValueError("MONGODB_URI is not configured")
 
 
-import certifi
-
 _mongo_options = {
     "serverSelectionTimeoutMS": 5000,
 }
 try:
+    import certifi
     _mongo_options["tlsCAFile"] = certifi.where()
 except Exception:
     pass

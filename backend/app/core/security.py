@@ -3,12 +3,24 @@ import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import bcrypt
+try:
+    import bcrypt
+    _has_bcrypt = True
+except ImportError:
+    bcrypt = None
+    _has_bcrypt = False
+
 from dotenv import load_dotenv
 from jose import JWTError, jwt
 from pwdlib import PasswordHash
 from pwdlib.hashers.argon2 import Argon2Hasher
-from pwdlib.hashers.bcrypt import BcryptHasher
+
+try:
+    from pwdlib.hashers.bcrypt import BcryptHasher
+    _has_bcrypt_hasher = True
+except Exception:
+    BcryptHasher = None
+    _has_bcrypt_hasher = False
 
 logger = logging.getLogger(__name__)
 
@@ -27,8 +39,15 @@ if not SECRET_KEY:
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7 days for stable session persistence
 
-# Multi-hasher: Argon2 (recommended default for hashing) + Bcrypt (for existing legacy hashes)
-password_hash = PasswordHash((Argon2Hasher(), BcryptHasher()))
+# Multi-hasher: Argon2 (recommended default for hashing) + Bcrypt (for existing legacy hashes if available)
+_hashers = [Argon2Hasher()]
+if _has_bcrypt_hasher and BcryptHasher is not None:
+    try:
+        _hashers.append(BcryptHasher())
+    except Exception:
+        pass
+
+password_hash = PasswordHash(tuple(_hashers))
 
 
 def hash_password(password: str) -> str:
@@ -59,7 +78,7 @@ def verify_password(
         logger.debug("pwdlib verification failed: %s", exc)
 
     # 2. Direct bcrypt check fallback for legacy bcrypt prefixes ($2a$, $2b$, $2y$, $2x$)
-    if hashed_str.startswith(("$2a$", "$2b$", "$2y$", "$2x$")):
+    if _has_bcrypt and bcrypt is not None and hashed_str.startswith(("$2a$", "$2b$", "$2y$", "$2x$")):
         try:
             if bcrypt.checkpw(plain_str.encode("utf-8"), hashed_str.encode("utf-8")):
                 return True

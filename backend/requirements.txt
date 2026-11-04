@@ -1,8 +1,11 @@
 fastapi[standard]
+uvicorn[standard]
 pymongo
 python-dotenv
 pytest
 python-jose[cryptography]
-pwdlib[argon2]
+pwdlib[argon2,bcrypt]
+bcrypt>=4.0.0
+certifi
 requests
 beautifulsoup4
