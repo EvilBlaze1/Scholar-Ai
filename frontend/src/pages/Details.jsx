@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import api from '../api/client';
 import { Icon } from '../components/Icons';
@@ -66,11 +65,49 @@ function Requirement({ label, value }) {
   );
 }
 
-export default function Details({ id, scholarship, onBack, onSave }) {
+export default function Details({
+  id,
+  scholarship,
+  onBack,
+  onSave,
+  isSaved = false,
+  isTracked = false,
+  onTrack,
+}) {
   const [item, setItem] = useState(scholarship || null);
   const [loading, setLoading] = useState(!scholarship);
   const [loadError, setLoadError] = useState('');
   const [savedMessage, setSavedMessage] = useState('');
+  const [trackingMessage, setTrackingMessage] = useState('');
+  const [isTracking, setIsTracking] = useState(false);
+
+  // Document readiness checklist state
+  const targetId =
+    scholarship?.id ||
+    scholarship?._id ||
+    scholarship?.scholarship_id ||
+    id ||
+    'default';
+  const docStorageKey = `scholar_docs_${targetId}`;
+
+  const [checkedDocs, setCheckedDocs] = useState(() => {
+    try {
+      const saved = localStorage.getItem(docStorageKey);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const toggleDoc = (doc) => {
+    setCheckedDocs((prev) => {
+      const updated = { ...prev, [doc]: !prev[doc] };
+      try {
+        localStorage.setItem(docStorageKey, JSON.stringify(updated));
+      } catch {}
+      return updated;
+    });
+  };
 
   useEffect(() => {
     let cancelled = false;
@@ -170,15 +207,30 @@ export default function Details({ id, scholarship, onBack, onSave }) {
     validDeadline &&
     deadlineDate.getTime() < new Date().setHours(0, 0, 0, 0);
 
+  const isOfficial =
+    item.verification_status === 'OFFICIAL' ||
+    item.verification_status === 'VERIFIED';
+
   const verificationRequired =
     verification ||
-    item.verification_required === true ||
-    (item.verification_status &&
-      item.verification_status !== 'VERIFIED');
+    (item.verification_required === true && !isOfficial);
 
   const ruleResults = Array.isArray(item.rule_results)
     ? item.rule_results
     : [];
+
+  const requiredDocuments = Array.isArray(item.required_documents)
+    ? item.required_documents
+    : [];
+
+  const readyDocCount = requiredDocuments.filter(
+    (d) => checkedDocs[d]
+  ).length;
+
+  const docReadinessPct =
+    requiredDocuments.length > 0
+      ? Math.round((readyDocCount / requiredDocuments.length) * 100)
+      : 0;
 
   async function saveScholarship() {
     setSavedMessage('');
@@ -190,10 +242,114 @@ export default function Details({ id, scholarship, onBack, onSave }) {
       }
 
       await onSave(item);
-      setSavedMessage('Scholarship saved successfully.');
     } catch {
-      setSavedMessage('Could not save this scholarship. Please try again.');
+      setSavedMessage('Could not update saved status. Please try again.');
     }
+  }
+
+  async function trackApplication() {
+    setTrackingMessage('');
+    setIsTracking(true);
+
+    if (typeof onTrack === 'function') {
+      try {
+        await onTrack(item);
+        setIsTracking(false);
+        return;
+      } catch {}
+    }
+
+    const trackId =
+      item.id || item._id || item.scholarship_id || sourceUrl || id;
+
+    if (!trackId) {
+      setTrackingMessage('Unable to track: scholarship ID missing.');
+      setIsTracking(false);
+      return;
+    }
+
+    try {
+      await api.post('/applications/', {
+        scholarship_id: String(trackId),
+        status: 'APPLIED',
+        applied_at: new Date().toISOString().split('T')[0],
+        scholarship_name: item.name || item.title || 'Scholarship opportunity',
+        provider: item.provider || 'Scholarship Authority',
+        scholarship_amount: item.scholarship_amount ?? item.amount,
+      });
+      setTrackingMessage('Added to your Application Tracker!');
+    } catch (error) {
+      if (error.response?.status === 409) {
+        setTrackingMessage('Already in your application tracker.');
+      } else {
+        setTrackingMessage(
+          error.response?.data?.detail || 'Could not track application.'
+        );
+      }
+    } finally {
+      setIsTracking(false);
+    }
+  }
+
+  function getGoogleCalendarUrl() {
+    if (!validDeadline) return null;
+    const y = deadlineDate.getFullYear();
+    const m = String(deadlineDate.getMonth() + 1).padStart(2, '0');
+    const d = String(deadlineDate.getDate()).padStart(2, '0');
+    const dateStr = `${y}${m}${d}`;
+    const title = encodeURIComponent(
+      `${item.name || 'Scholarship'} - Application Deadline`
+    );
+    const details = encodeURIComponent(
+      `Application deadline for ${item.name || 'Scholarship'}.\nProvider: ${
+        item.provider || 'Scholarship Authority'
+      }\nWebsite: ${sourceUrl || ''}\n\nTracked via Scholar AI`
+    );
+    return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dateStr}/${dateStr}&details=${details}`;
+  }
+
+  function downloadIcs() {
+    if (!validDeadline) return;
+    const y = deadlineDate.getFullYear();
+    const m = String(deadlineDate.getMonth() + 1).padStart(2, '0');
+    const d = String(deadlineDate.getDate()).padStart(2, '0');
+    const dateStr = `${y}${m}${d}`;
+    const cleanTitle = (item.name || 'Scholarship')
+      .replace(/,/g, '')
+      .replace(/[^\w\s-]/g, '');
+
+    const icsContent = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//Scholar AI//Scholarship Reminder//EN',
+      'BEGIN:VEVENT',
+      `UID:${Date.now()}@scholarai.local`,
+      `DTSTAMP:${dateStr}T090000Z`,
+      `DTSTART;VALUE=DATE:${dateStr}`,
+      `DTEND;VALUE=DATE:${dateStr}`,
+      `SUMMARY:${cleanTitle} Deadline`,
+      `DESCRIPTION:Application deadline for ${cleanTitle}. Provider: ${
+        item.provider || 'Authority'
+      }. Official source: ${sourceUrl || ''}`,
+      'STATUS:CONFIRMED',
+      'END:VEVENT',
+      'END:VCALENDAR',
+    ].join('\r\n');
+
+    const blob = new Blob([icsContent], {
+      type: 'text/calendar;charset=utf-8',
+    });
+    const link = document.createElement('a');
+    link.href = window.URL.createObjectURL(blob);
+    link.setAttribute(
+      'download',
+      `${(item.name || 'scholarship')
+        .slice(0, 30)
+        .replace(/[^a-zA-Z0-9]/g, '_')}_deadline.ics`
+    );
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
@@ -239,25 +395,39 @@ export default function Details({ id, scholarship, onBack, onSave }) {
               </span>
             )}
 
-            {verificationRequired && (
+            {isOfficial ? (
+              <span className="application-status status-selected">
+                ✓ Official Portal / Verified Scheme
+              </span>
+            ) : verificationRequired ? (
               <span className="application-status status-needs-verification">
                 Verify details
               </span>
-            )}
+            ) : null}
           </div>
         </div>
 
         <button
           type="button"
-          className="secondary-btn"
+          className={`secondary-btn ${isSaved ? 'btn-saved' : ''}`}
           onClick={saveScholarship}
+          style={
+            isSaved
+              ? {
+                  background: 'var(--soft-green, #eaf3ef)',
+                  color: 'var(--green, #173f35)',
+                  borderColor: '#c0ded0',
+                  fontWeight: 600,
+                }
+              : {}
+          }
         >
           <Icon name="bookmark" size={17} />
-          Save scholarship
+          {isSaved ? 'Saved' : 'Save scholarship'}
         </button>
       </div>
 
-      {verificationRequired && (
+      {verificationRequired && !isOfficial && (
         <div className="notice notice-warning" role="note">
           <strong>Verify before applying</strong>
           <p>
@@ -295,7 +465,7 @@ export default function Details({ id, scholarship, onBack, onSave }) {
 
             {item.benefits_description && (
               <>
-                <h3>Benefits and financial support</h3>
+                <h3 style={{ marginTop: '16px' }}>Benefits and financial support</h3>
                 <p>{item.benefits_description}</p>
               </>
             )}
@@ -399,17 +569,51 @@ export default function Details({ id, scholarship, onBack, onSave }) {
             </div>
           )}
 
-          {item.required_documents?.length > 0 && (
+          {/* Interactive Document Readiness Checklist */}
+          {requiredDocuments.length > 0 && (
             <div className="detail-card">
-              <h3>Required documents</h3>
+              <div className="checklist-header">
+                <div>
+                  <h3>Document Readiness Checklist</h3>
+                  <p className="muted" style={{ fontSize: '12px', marginTop: '2px' }}>
+                    Tick the documents you have prepared for application.
+                  </p>
+                </div>
+                <div className="checklist-progress">
+                  <span className="checklist-pct">{docReadinessPct}% Ready</span>
+                  <span className="checklist-count">({readyDocCount}/{requiredDocuments.length})</span>
+                </div>
+              </div>
 
-              <ul className="document-list">
-                {item.required_documents.map((document, index) => (
-                  <li key={`${document}-${index}`}>
-                    <Icon name="check" size={16} />
-                    {document}
-                  </li>
-                ))}
+              <div className="progress-bar-bg">
+                <div
+                  className="progress-bar-fill"
+                  style={{ width: `${docReadinessPct}%` }}
+                />
+              </div>
+
+              <ul className="interactive-document-list">
+                {requiredDocuments.map((document, index) => {
+                  const isChecked = Boolean(checkedDocs[document]);
+                  return (
+                    <li
+                      key={`${document}-${index}`}
+                      className={`checklist-item ${isChecked ? 'ready' : ''}`}
+                      onClick={() => toggleDoc(document)}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => {}}
+                        aria-label={`Mark ${document} as ready`}
+                      />
+                      <span className="doc-name">{document}</span>
+                      <span className="doc-status-chip">
+                        {isChecked ? 'Ready' : 'Pending'}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           )}
@@ -427,9 +631,10 @@ export default function Details({ id, scholarship, onBack, onSave }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-btn"
+                style={{ marginTop: '10px' }}
               >
                 View source webpage
-                <Icon name="external-link" size={15} />
+                <Icon name="arrow" size={15} />
               </a>
             </div>
           )}
@@ -455,7 +660,7 @@ export default function Details({ id, scholarship, onBack, onSave }) {
             <strong>{formatDeadline(deadline)}</strong>
 
             {deadlinePassed && (
-              <p className="muted">
+              <p className="muted" style={{ color: '#a04d4d' }}>
                 This listed deadline has passed. Check the official source
                 for any extensions or a new application cycle.
               </p>
@@ -467,14 +672,85 @@ export default function Details({ id, scholarship, onBack, onSave }) {
               </p>
             )}
 
+            {/* Deadline Reminders Widget */}
+            {validDeadline && !deadlinePassed && (
+              <div className="calendar-actions">
+                <a
+                  href={getGoogleCalendarUrl()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="calendar-btn"
+                  title="Add reminder to Google Calendar"
+                >
+                  <Icon name="calendar" size={14} />
+                  Add to Google Calendar
+                </a>
+
+                <button
+                  type="button"
+                  className="calendar-btn"
+                  onClick={downloadIcs}
+                  title="Download .ics file for Apple/Outlook/Desktop calendars"
+                >
+                  <Icon name="file" size={14} />
+                  Download .ics Reminder
+                </button>
+              </div>
+            )}
+
             <button
               type="button"
-              className="primary-btn wide"
+              className={`secondary-btn wide ${isSaved ? 'btn-saved' : ''}`}
+              style={{
+                marginTop: '14px',
+                ...(isSaved
+                  ? {
+                      background: 'var(--soft-green, #eaf3ef)',
+                      color: 'var(--green, #173f35)',
+                      borderColor: '#c0ded0',
+                      fontWeight: 600,
+                    }
+                  : {}),
+              }}
               onClick={saveScholarship}
             >
               <Icon name="bookmark" size={17} />
-              Save scholarship
+              {isSaved ? 'Saved' : 'Save scholarship'}
             </button>
+
+            <button
+              type="button"
+              className={`wide ${isTracked ? 'secondary-btn' : 'primary-btn'}`}
+              style={{
+                marginTop: '10px',
+                ...(isTracked
+                  ? {
+                      background: '#f1f5f9',
+                      color: '#475569',
+                      borderColor: '#cbd5e1',
+                      cursor: 'default',
+                    }
+                  : {}),
+              }}
+              onClick={isTracked ? undefined : trackApplication}
+              disabled={isTracking}
+            >
+              <Icon name={isTracked ? 'check' : 'file'} size={17} />
+              {isTracked
+                ? 'Tracked in Applications'
+                : isTracking
+                ? 'Adding...'
+                : 'Track in Applications'}
+            </button>
+
+            {trackingMessage && (
+              <p
+                className="success-text"
+                style={{ marginTop: '6px', textAlign: 'center' }}
+              >
+                {trackingMessage}
+              </p>
+            )}
 
             {applicationUrl ? (
               <a
@@ -482,9 +758,10 @@ export default function Details({ id, scholarship, onBack, onSave }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="secondary-btn wide"
+                style={{ marginTop: '10px' }}
               >
                 Open application page
-                <Icon name="external-link" size={15} />
+                <Icon name="arrow" size={15} />
               </a>
             ) : sourceUrl ? (
               <a
@@ -492,9 +769,10 @@ export default function Details({ id, scholarship, onBack, onSave }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="secondary-btn wide"
+                style={{ marginTop: '10px' }}
               >
                 Visit scholarship website
-                <Icon name="external-link" size={15} />
+                <Icon name="arrow" size={15} />
               </a>
             ) : null}
           </div>

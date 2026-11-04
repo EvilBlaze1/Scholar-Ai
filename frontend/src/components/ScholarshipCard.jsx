@@ -1,4 +1,3 @@
-
 import { Icon } from './Icons';
 
 function formatAmount(value) {
@@ -10,7 +9,12 @@ function formatAmount(value) {
     return `₹${value.toLocaleString('en-IN')}`;
   }
 
-  return String(value);
+  const s = String(value).trim();
+  if (s.startsWith('₹') || s.toLowerCase().startsWith('rs') || s.toLowerCase().startsWith('inr')) {
+    return s;
+  }
+
+  return `₹${s}`;
 }
 
 function formatDeadline(value) {
@@ -41,7 +45,7 @@ export default function ScholarshipCard({
   const ineligible = status === 'INELIGIBLE';
   const verify = status === 'NEEDS_VERIFICATION' || !status;
 
-  const provider = item.provider || 'Scholarship provider';
+  const provider = item.provider || 'Scholarship Authority / Foundation';
 
   const scholarshipName =
     item.name || item.title || 'Scholarship opportunity';
@@ -60,65 +64,97 @@ export default function ScholarshipCard({
       ? Math.max(0, Math.min(100, Math.round(item.match_score)))
       : null;
 
+  const isOfficial =
+    item.verification_status === 'OFFICIAL' ||
+    item.verification_status === 'VERIFIED';
+
   const statusLabel = eligible
     ? 'Eligible'
     : ineligible
       ? 'Potential mismatch'
-      : 'Needs verification';
+      : isOfficial
+        ? 'Official Scheme'
+        : 'Needs verification';
 
   const statusClass = eligible
     ? 'success'
     : ineligible
       ? 'neutral'
-      : 'warning';
+      : isOfficial
+        ? 'official'
+        : 'warning';
 
   const verificationRequired =
-    verify || item.verification_required === true;
+    !isOfficial && (verify || item.verification_required === true);
 
   return (
     <article className="scholarship-card">
       <div className="card-top">
-        <div className="provider-logo">
+        <div className="provider-logo" title={provider}>
           {provider.trim().charAt(0).toUpperCase() || 'S'}
         </div>
 
-        <button
-          type="button"
-          className={`save-btn ${saved ? 'saved' : ''}`}
-          onClick={() => onSave?.(item)}
-          aria-label={
-            saved
-              ? `Remove ${scholarshipName} from saved scholarships`
-              : `Save ${scholarshipName}`
-          }
-          aria-pressed={saved}
-        >
-          <Icon name="bookmark" size={18} />
-        </button>
+        <div className="card-top-right">
+          {matchScore !== null && (
+            <span
+              className={`match-pill ${matchScore >= 80 ? 'high' : matchScore >= 50 ? 'med' : 'low'}`}
+              title="Provisional eligibility match score based on your profile"
+            >
+              <span className="pulse-dot" />
+              {matchScore}% Match
+            </span>
+          )}
+
+          <button
+            type="button"
+            className={`save-btn ${saved ? 'saved' : ''}`}
+            onClick={() => onSave?.(item)}
+            aria-label={
+              saved
+                ? `Remove ${scholarshipName} from saved scholarships`
+                : `Save ${scholarshipName}`
+            }
+            aria-pressed={saved}
+            title={saved ? 'Saved to bookmarks' : 'Save scholarship'}
+          >
+            <Icon name="bookmark" size={17} />
+          </button>
+        </div>
       </div>
 
       <div className="card-body">
-        <div className="eyebrow">{provider}</div>
+        <div className="card-provider-row">
+          <span className="eyebrow">{provider}</span>
+          {isOfficial && (
+            <span className="official-chip" title="Verified source / Official Government Portal">
+              🏛️ Official
+            </span>
+          )}
+        </div>
 
-        <h3>{scholarshipName}</h3>
+        <h3 title={scholarshipName}>{scholarshipName}</h3>
 
         <p>
           {item.description ||
             item.benefits_description ||
             'Financial support for eligible students.'}
         </p>
-      </div>
 
-      <div className="card-meta">
-        <span>
-          <Icon name="money" size={16} />
-          {amount}
-        </span>
-
-        <span>
-          <Icon name="calendar" size={16} />
-          {deadline}
-        </span>
+        {/* Structured Financial & Deadline Box */}
+        <div className="card-highlight-box">
+          <div className="highlight-item">
+            <span className="highlight-label">Award Value</span>
+            <strong className="highlight-val">{amount}</strong>
+          </div>
+          <div className="highlight-divider" />
+          <div className="highlight-item">
+            <span className="highlight-label">Application Deadline</span>
+            <span className="highlight-deadline">
+              <Icon name="calendar" size={13} />
+              {deadline}
+            </span>
+          </div>
+        </div>
       </div>
 
       <div className="card-footer">
@@ -134,30 +170,21 @@ export default function ScholarshipCard({
           {statusLabel}
         </span>
 
-        {matchScore !== null && (
-          <strong
-            className="match"
-            title="Provisional rule-match score, not a probability of receiving the award."
-          >
-            {matchScore}% match
-          </strong>
-        )}
-
         <button
           type="button"
-          className="text-btn"
+          className="view-btn"
           onClick={() => onOpen?.(item)}
           aria-label={`View details for ${scholarshipName}`}
         >
           View details
-          <Icon name="arrow" size={16} />
+          <Icon name="arrow" size={15} />
         </button>
       </div>
 
       {verificationRequired && (
-        <p className="muted scholarship-verification-note">
-          Confirm the requirements and deadline with the official source.
-        </p>
+        <div className="scholarship-verification-note">
+          Confirm requirements on official website
+        </div>
       )}
     </article>
   );

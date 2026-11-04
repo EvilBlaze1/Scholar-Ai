@@ -1,4 +1,3 @@
-
 from app.services.web_eligibility_parser import parse_eligibility_rules
 
 
@@ -69,8 +68,8 @@ def convert_web_scholarship_to_schema(data: dict) -> dict:
         # The source URL is a temporary external identifier, not a MongoDB ID.
         "id": source_url,
 
-        "name": name or "Unknown Scholarship",
-        "provider": provider or "Unknown Provider",
+        "name": name or "Scholarship Opportunity",
+        "provider": provider or "Scholarship Authority / Foundation",
         "description": description,
         "source_url": source_url,
 
@@ -82,14 +81,14 @@ def convert_web_scholarship_to_schema(data: dict) -> dict:
         "maximum_age": None,
 
         "eligible_categories": rules.get("eligible_categories", []),
-        "eligible_states": [],
-        "eligible_education_levels": [],
-        "eligible_courses": [],
+        "eligible_states": rules.get("eligible_states", []),
+        "eligible_education_levels": rules.get("eligible_education_levels", []),
+        "eligible_courses": rules.get("eligible_courses", []),
         "eligible_genders": rules.get("eligible_genders", []),
 
         "maximum_family_income": rules.get("maximum_family_income"),
-        "minimum_score": None,
-        "minimum_score_type": None,
+        "minimum_score": rules.get("minimum_score"),
+        "minimum_score_type": rules.get("minimum_score_type"),
         "disability_required": rules.get("disability_required"),
 
         "scholarship_amount": scholarship_amount,
@@ -97,7 +96,6 @@ def convert_web_scholarship_to_schema(data: dict) -> dict:
         "benefits_description": " ".join(benefits) or None,
         "required_documents": required_documents,
 
-        # Retrieval is not proof that the details are correct.
         "verification_status": verification_status,
         "last_verified_at": None,
     }

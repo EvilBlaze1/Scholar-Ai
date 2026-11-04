@@ -22,6 +22,7 @@ security = HTTPBearer()
 
 
 class SaveScholarshipRequest(BaseModel):
+    scholarship_id: str | None = None
     scholarship: dict[str, Any] | None = None
 
 
@@ -39,13 +40,40 @@ def get_current_user_id(
     return user_id
 
 
-@router.post("/{scholarship_id}")
+@router.post("/")
+def save_scholarship_root(
+    payload: SaveScholarshipRequest,
+    user_id: str = Depends(get_current_user_id),
+):
+    target_id = payload.scholarship_id
+    if not target_id and payload.scholarship:
+        target_id = (
+            payload.scholarship.get("id") or
+            payload.scholarship.get("scholarship_id") or
+            payload.scholarship.get("source_url")
+        )
+
+    if not target_id or not str(target_id).strip():
+        raise HTTPException(
+            status_code=400,
+            detail="Scholarship ID is required",
+        )
+
+    return save_scholarship(
+        scholarship_id=str(target_id).strip(),
+        payload=payload,
+        user_id=user_id,
+    )
+
+
+@router.post("/{scholarship_id:path}")
 def save_scholarship(
     scholarship_id: str,
     payload: SaveScholarshipRequest | None = None,
     user_id: str = Depends(get_current_user_id),
 ):
-    if not scholarship_id.strip():
+    scholarship_id = str(scholarship_id).strip()
+    if not scholarship_id:
         raise HTTPException(
             status_code=400,
             detail="Scholarship ID is required",
@@ -53,32 +81,9 @@ def save_scholarship(
 
     scholarship_data = payload.scholarship if payload else None
 
-    if scholarship_data is not None:
-        source_url = scholarship_data.get("source_url")
-        item_id = scholarship_data.get("id")
-
-        # The submitted snapshot must refer to the item being saved.
-        if item_id and item_id != scholarship_id:
-            raise HTTPException(
-                status_code=400,
-                detail="Scholarship ID does not match the submitted data",
-            )
-
-        # Validate source URLs when provided.
-        if source_url is not None:
-            try:
-                parsed_url = HttpUrl(source_url)
-            except Exception as exc:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Invalid scholarship source URL",
-                ) from exc
-
-            if parsed_url.scheme not in ("http", "https"):
-                raise HTTPException(
-                    status_code=400,
-                    detail="Scholarship source URL must use HTTP or HTTPS",
-                )
+    if isinstance(scholarship_data, dict):
+        # Keep submitted ID aligned with path
+        scholarship_data["id"] = scholarship_id
 
     result = add_saved_scholarship(
         user_id,
@@ -90,8 +95,6 @@ def save_scholarship(
         return result
 
     if result is None:
-        # Backward compatibility for any repository implementation
-        # that still returns None for duplicate saves.
         existing = fetch_saved_scholarships(user_id)
         for item in existing:
             if item.get("scholarship_id") == scholarship_id:
@@ -105,6 +108,26 @@ def save_scholarship(
     return result
 
 
+@router.get("/ids")
+def get_saved_ids(
+    user_id: str = Depends(get_current_user_id),
+):
+    items = fetch_saved_scholarships(user_id) or []
+    ids = set()
+    for item in items:
+        if item.get("scholarship_id"):
+            ids.add(str(item["scholarship_id"]))
+        if item.get("id"):
+            ids.add(str(item["id"]))
+        snap = item.get("scholarship")
+        if isinstance(snap, dict):
+            if snap.get("id"):
+                ids.add(str(snap["id"]))
+            if snap.get("source_url"):
+                ids.add(str(snap["source_url"]))
+    return {"saved_ids": list(ids)}
+
+
 @router.get("/")
 def get_saved_scholarships(
     user_id: str = Depends(get_current_user_id),
@@ -112,7 +135,18 @@ def get_saved_scholarships(
     return fetch_saved_scholarships(user_id)
 
 
-@router.delete("/{scholarship_id}")
+@router.delete("/")
+def delete_saved_scholarship_query(
+    scholarship_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    return delete_saved_scholarship(
+        scholarship_id=scholarship_id,
+        user_id=user_id,
+    )
+
+
+@router.delete("/{scholarship_id:path}")
 def delete_saved_scholarship(
     scholarship_id: str,
     user_id: str = Depends(get_current_user_id),
@@ -125,4 +159,7 @@ def delete_saved_scholarship(
             detail="Saved scholarship not found",
         )
 
-    return {"message": "Scholarship removed from saved list"}
+    return {
+        "message": "Scholarship removed from saved list",
+        "scholarship_id": scholarship_id,
+    }

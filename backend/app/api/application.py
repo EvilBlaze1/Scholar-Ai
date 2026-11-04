@@ -1,4 +1,4 @@
-
+from typing import Any, Union
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel, Field, field_validator
@@ -8,6 +8,8 @@ from app.services.application_service import (
     add_application,
     fetch_user_applications,
     change_application_status,
+    update_user_application,
+    remove_application,
 )
 
 
@@ -32,6 +34,9 @@ class ApplicationCreate(BaseModel):
     status: str = "APPLIED"
     notes: str | None = Field(default=None, max_length=2000)
     applied_at: str | None = Field(default=None, max_length=50)
+    scholarship_name: str | None = Field(default=None, max_length=255)
+    provider: str | None = Field(default=None, max_length=255)
+    scholarship_amount: Union[str, float, int, None] = None
 
     @field_validator("scholarship_id")
     @classmethod
@@ -62,10 +67,25 @@ class ApplicationStatusUpdate(BaseModel):
         return value
 
 
+class ApplicationUpdateRequest(BaseModel):
+    status: str | None = None
+    notes: str | None = Field(default=None, max_length=2000)
+
+    @field_validator("status")
+    @classmethod
+    def validate_status(cls, value):
+        if value is not None:
+            value = value.strip().upper()
+            if value not in VALID_STATUSES:
+                raise ValueError("Invalid application status")
+        return value
+
+
 def get_current_user_id(
     credentials: HTTPAuthorizationCredentials = Depends(security),
 ):
-    user_id = decode_access_token(credentials.credentials)
+    token = credentials.credentials
+    user_id = decode_access_token(token)
 
     if user_id is None:
         raise HTTPException(
@@ -87,6 +107,9 @@ def create_application(
         status=application.status,
         notes=application.notes,
         applied_at=application.applied_at,
+        scholarship_name=application.scholarship_name,
+        provider=application.provider,
+        scholarship_amount=application.scholarship_amount,
     )
 
     if result.get("error"):
@@ -108,28 +131,22 @@ def create_application(
 
 
 @router.get("/")
-def get_applications(
+def get_my_applications(
     user_id: str = Depends(get_current_user_id),
 ):
     return fetch_user_applications(user_id)
 
 
-@router.put("/{scholarship_id}")
-def update_application_status(
+@router.patch("/{scholarship_id}/status")
+def update_status(
     scholarship_id: str,
-    application: ApplicationStatusUpdate,
+    update: ApplicationStatusUpdate,
     user_id: str = Depends(get_current_user_id),
 ):
-    if not scholarship_id.strip():
-        raise HTTPException(
-            status_code=400,
-            detail="Scholarship ID is required",
-        )
-
     result = change_application_status(
         user_id=user_id,
         scholarship_id=scholarship_id,
-        status=application.status,
+        status=update.status,
     )
 
     if result.get("error"):
@@ -145,6 +162,64 @@ def update_application_status(
         raise HTTPException(
             status_code=status_code,
             detail=message,
+        )
+
+    return result
+
+
+@router.put("/{scholarship_id:path}")
+def update_application_endpoint(
+    scholarship_id: str,
+    update: ApplicationUpdateRequest,
+    user_id: str = Depends(get_current_user_id),
+):
+    result = update_user_application(
+        user_id=user_id,
+        scholarship_id=scholarship_id,
+        status=update.status,
+        notes=update.notes,
+    )
+
+    if result.get("error"):
+        message = result["error"]
+        status_code = (
+            404
+            if message == "Application not found"
+            else (422 if message == "Invalid application status" else 400)
+        )
+        raise HTTPException(
+            status_code=status_code,
+            detail=message,
+        )
+
+    return result
+
+
+@router.delete("/")
+def delete_application_query(
+    scholarship_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    return delete_application_endpoint(
+        scholarship_id=scholarship_id,
+        user_id=user_id,
+    )
+
+
+@router.delete("/{scholarship_id:path}")
+def delete_application_endpoint(
+    scholarship_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    result = remove_application(
+        user_id=user_id,
+        scholarship_id=scholarship_id,
+    )
+
+    if result.get("error"):
+        raise HTTPException(
+            status_code=404,
+            detail=result["error"],
         )
 
     return result

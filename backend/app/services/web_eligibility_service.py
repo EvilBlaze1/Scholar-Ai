@@ -1,4 +1,3 @@
-
 from app.services.eligibility_engine import evaluate_eligibility
 from app.services.web_scholarship_converter import (
     convert_web_scholarship_to_schema,
@@ -12,8 +11,9 @@ def evaluate_web_scholarship(
     """
     Evaluate a discovered scholarship conservatively.
 
-    Unverified source information must never be presented as
-    confirmed eligibility.
+    Official sources (government portals, verified foundations) can be
+    marked ELIGIBLE if all rules pass. Unverified third-party sources
+    retain NEEDS_VERIFICATION status.
     """
     if not isinstance(student, dict):
         raise ValueError("Student data must be a dictionary.")
@@ -43,8 +43,9 @@ def evaluate_web_scholarship(
         scholarship.get("verification_status") or "UNVERIFIED"
     ).upper()
 
-    # Keep verified and unverified scholarship data distinct.
-    verification_required = verification_status != "VERIFIED"
+    # Trusted official platforms (e.g. scholarships.gov.in, UGC, AICTE)
+    is_official_or_verified = verification_status in ("VERIFIED", "OFFICIAL")
+    verification_required = not is_official_or_verified
 
     if verification_required:
         if isinstance(failed_rules, (int, float)) and failed_rules > 0:

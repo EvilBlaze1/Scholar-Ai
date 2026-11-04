@@ -1,5 +1,6 @@
 
 from datetime import date, datetime
+import re
 
 from app.database.student_repository import get_student_by_user_id
 from app.database.saved_scholarship_repository import get_saved_scholarships
@@ -13,12 +14,14 @@ def _parse_deadline(value):
         return None
 
     value = value.strip()
+    cleaned = re.sub(r'(\d+)(?:st|nd|rd|th)\b', r'\1', value, flags=re.IGNORECASE)
 
     formats = (
         "%Y-%m-%d",
         "%Y-%m-%dT%H:%M:%S",
         "%d/%m/%Y",
         "%d-%m-%Y",
+        "%d.%m.%Y",
         "%d %B %Y",
         "%d %b %Y",
         "%B %d, %Y",
@@ -27,34 +30,55 @@ def _parse_deadline(value):
 
     for fmt in formats:
         try:
-            return datetime.strptime(value, fmt).date()
+            return datetime.strptime(cleaned, fmt).date()
         except ValueError:
             continue
 
     return None
 
 
-def _upcoming_deadlines(matches, limit=5):
+def _upcoming_deadlines(matches, saved_scholarships=None, limit=5):
     """Return scholarships with parseable, future application deadlines."""
     today = date.today()
+    candidates = list(matches or [])
+
+    if saved_scholarships:
+        for saved in saved_scholarships:
+            snap = saved.get("scholarship")
+            if isinstance(snap, dict):
+                candidates.append({
+                    "scholarship_id": saved.get("scholarship_id") or snap.get("id"),
+                    "name": snap.get("name") or snap.get("title"),
+                    "application_deadline": snap.get("application_deadline") or snap.get("deadline"),
+                    "status": snap.get("status") or snap.get("eligibility_status"),
+                    "source_url": snap.get("source_url"),
+                })
+
+    seen = set()
     upcoming = []
 
-    for match in matches:
-        deadline = _parse_deadline(match.get("application_deadline"))
+    for item in candidates:
+        deadline_str = item.get("application_deadline") or item.get("deadline")
+        deadline = _parse_deadline(deadline_str)
 
         if deadline is None or deadline < today:
             continue
 
+        item_id = item.get("scholarship_id") or item.get("id") or item.get("name")
+        if item_id in seen:
+            continue
+        seen.add(item_id)
+
         upcoming.append({
-            "scholarship_id": match.get("scholarship_id"),
-            "name": match.get("name"),
-            "application_deadline": match.get("application_deadline"),
-            "status": match.get("status"),
-            "source_url": match.get("source_url"),
+            "scholarship_id": item.get("scholarship_id") or item.get("id"),
+            "name": item.get("name") or item.get("title"),
+            "application_deadline": deadline_str,
+            "status": item.get("status"),
+            "source_url": item.get("source_url"),
         })
 
     upcoming.sort(
-        key=lambda item: _parse_deadline(item["application_deadline"])
+        key=lambda item: _parse_deadline(item["application_deadline"]) or today
     )
 
     return upcoming[:limit]
@@ -106,5 +130,5 @@ def get_user_dashboard(user_id: str):
         "matches": matches,
         "saved_scholarships": saved_scholarships,
         "applications": applications,
-        "upcoming_deadlines": _upcoming_deadlines(matches),
+        "upcoming_deadlines": _upcoming_deadlines(matches, saved_scholarships),
     }

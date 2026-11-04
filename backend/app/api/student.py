@@ -15,6 +15,8 @@ from app.core.security import (
     decode_access_token,
 )
 
+from app.core.search_cache import invalidate_cache
+
 from app.services.student_service import (
     register_student,
     fetch_student,
@@ -66,7 +68,9 @@ def create_my_student_profile(
 
     student_data["user_id"] = user_id
 
-    return register_student(student_data)
+    created = register_student(student_data)
+    invalidate_cache("student_search")
+    return created
 
 
 @router.get("/me")
@@ -116,4 +120,5 @@ def update_student(
             detail="Student not found"
         )
 
+    invalidate_cache("student_search")
     return updated_student

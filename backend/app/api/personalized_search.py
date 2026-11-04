@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 
 from app.schemas.search import PersonalizedSearchResponse
 from app.services.scholarship_search_service import (
@@ -15,10 +15,18 @@ router = APIRouter(
     "/student/{student_id}",
     response_model=PersonalizedSearchResponse,
 )
-def personalized_scholarship_search(student_id: str):
-
+def personalized_scholarship_search(
+    student_id: str,
+    refresh: bool = Query(
+        False,
+        description="Bypass search cache and re-crawl results",
+    ),
+):
     try:
-        result = search_scholarships_for_student(student_id)
+        result = search_scholarships_for_student(
+            student_id,
+            force_refresh=refresh,
+        )
 
         if result is None:
             raise HTTPException(

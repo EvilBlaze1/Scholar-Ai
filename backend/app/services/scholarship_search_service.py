@@ -1,6 +1,11 @@
-
+import logging
 from urllib.parse import urlsplit, urlunsplit
 
+from app.core.search_cache import (
+    get_cached_search,
+    make_cache_key,
+    set_cached_search,
+)
 from app.database.student_repository import get_student
 from app.search.web_search import search_web
 from app.services.scholarship_extraction_service import (
@@ -13,6 +18,7 @@ from app.services.web_eligibility_service import (
     evaluate_web_scholarship,
 )
 
+logger = logging.getLogger(__name__)
 
 MAX_QUERIES = 6
 RESULTS_PER_QUERY = 5
@@ -161,7 +167,7 @@ def normalize_url(url: str) -> str | None:
         return None
 
 
-def search_scholarships_for_student(student_id: str):
+def search_scholarships_for_student(student_id: str, force_refresh: bool = False):
     """Discover, extract, and evaluate scholarships for one student."""
 
     student = get_student(student_id)
@@ -169,11 +175,32 @@ def search_scholarships_for_student(student_id: str):
     if student is None:
         return None
 
+    # Check cache first unless force_refresh is requested
+    cache_key = make_cache_key(
+        "student_search",
+        student_id,
+        student.get("course"),
+        student.get("specialization"),
+        student.get("state") or student.get("domicile_state"),
+        student.get("category"),
+        student.get("education_level"),
+        student.get("gender"),
+        student.get("annual_family_income"),
+        student.get("score"),
+        student.get("score_type"),
+    )
+
+    if not force_refresh:
+        cached = get_cached_search("student_search", cache_key)
+        if cached is not None and isinstance(cached, dict):
+            logger.info("Serving personalized search from cache for student_id=%s", student_id)
+            cached["cached"] = True
+            return cached
+
     queries = build_search_queries(student)
     selected_queries = queries[:MAX_QUERIES]
 
     unique_results = {}
-
     search_errors = []
 
     for query in selected_queries:
@@ -181,6 +208,7 @@ def search_scholarships_for_student(student_id: str):
             results = search_web(
                 query,
                 num_results=RESULTS_PER_QUERY,
+                use_cache=not force_refresh,
             )
 
             if not isinstance(results, list):
@@ -217,6 +245,7 @@ def search_scholarships_for_student(student_id: str):
             "count": 0,
             "results": [],
             "search_errors": len(search_errors),
+            "cached": False,
             "message": (
                 "Search providers did not return usable results. "
                 "Please try again later."
@@ -311,10 +340,17 @@ def search_scholarships_for_student(student_id: str):
         reverse=True,
     )
 
-    return {
+    output = {
         "student_id": student_id,
         "queries": selected_queries,
         "count": len(evaluated_scholarships),
         "results": evaluated_scholarships,
         "search_errors": len(search_errors),
+        "cached": False,
     }
+
+    # Cache evaluated results for 30 minutes (1800s) if we found results
+    if evaluated_scholarships:
+        set_cached_search("student_search", cache_key, output, ttl_seconds=1800)
+
+    return output

@@ -34,7 +34,7 @@ function getScholarshipId(scholarship) {
   return scholarship.scholarship_id || scholarship.id;
 }
 
-export default function Saved({ onOpen }) {
+export default function Saved({ onOpen, onUnsave, savedIds, onRefreshSaved }) {
   const [saved, setSaved] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -128,21 +128,28 @@ export default function Saved({ onOpen }) {
     setRemovingId(scholarshipId);
     setError('');
 
-    try {
-      await api.delete(
-        `/saved-scholarships/${encodeURIComponent(scholarshipId)}`
-      );
+    // Optimistically update local UI
+    setSaved((current) =>
+      current.filter(
+        (item) => getScholarshipId(item) !== scholarshipId
+      )
+    );
 
-      setSaved((current) =>
-        current.filter(
-          (item) => getScholarshipId(item) !== scholarshipId
-        )
-      );
+    try {
+      if (typeof onUnsave === 'function') {
+        await onUnsave(scholarship);
+      } else {
+        await api.delete('/saved-scholarships/', {
+          params: { scholarship_id: scholarshipId },
+        });
+      }
+      onRefreshSaved?.();
     } catch (err) {
       setError(
         err.response?.data?.detail ||
           'Could not remove this scholarship. Please try again.'
       );
+      loadSavedScholarships();
     } finally {
       setRemovingId(null);
     }

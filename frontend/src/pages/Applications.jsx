@@ -36,10 +36,18 @@ function getScholarshipName(item) {
   );
 }
 
-export default function Applications() {
+function formatAmount(amount) {
+  if (amount === null || amount === undefined || amount === '') return null;
+  return typeof amount === 'number'
+    ? `₹${amount.toLocaleString('en-IN')}`
+    : String(amount);
+}
+
+export default function Applications({ onOpen, onRefreshTracked }) {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [updatingId, setUpdatingId] = useState(null);
+  const [deletingId, setDeletingId] = useState(null);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
   const [filter, setFilter] = useState('ALL');
@@ -106,6 +114,36 @@ export default function Applications() {
     }
   }
 
+  async function deleteApp(item) {
+    const scholarshipId = item.scholarship_id;
+    if (!scholarshipId || deletingId) return;
+
+    const name = getScholarshipName(item);
+    if (!window.confirm(`Stop tracking "${name}"?`)) {
+      return;
+    }
+
+    setDeletingId(scholarshipId);
+    setError('');
+    setNotice('');
+
+    try {
+      await api.delete(`/applications/${encodeURIComponent(scholarshipId)}`);
+      setItems((current) =>
+        current.filter((existing) => existing.scholarship_id !== scholarshipId)
+      );
+      setNotice('Application removed from tracking.');
+      onRefreshTracked?.();
+    } catch (err) {
+      setError(
+        err.response?.data?.detail ||
+          'Could not remove application. Please try again.'
+      );
+    } finally {
+      setDeletingId(null);
+    }
+  }
+
   const visibleItems =
     filter === 'ALL'
       ? items
@@ -131,7 +169,7 @@ export default function Applications() {
         </div>
 
         <button
-          className="btn btn-secondary"
+          className="secondary-btn"
           type="button"
           onClick={loadApplications}
           disabled={loading}
@@ -189,16 +227,49 @@ export default function Applications() {
             const scholarshipId = item.scholarship_id || item.id || index;
             const currentStatus = item.status || 'APPLIED';
             const isUpdating = updatingId === item.scholarship_id;
+            const scholarshipName = getScholarshipName(item);
+            const provider = item.provider || item.scholarship?.provider || null;
+            const amount = formatAmount(
+              item.scholarship_amount ?? item.scholarship?.scholarship_amount
+            );
+            const logoLetter = (provider || scholarshipName || 'S')
+              .trim()
+              .charAt(0)
+              .toUpperCase();
 
             return (
               <article
                 className="application-row"
                 key={scholarshipId}
               >
-                <div className="provider-logo">S</div>
+                <div className="provider-logo">{logoLetter}</div>
 
                 <div className="application-main">
-                  <b>{getScholarshipName(item)}</b>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                    <b>{scholarshipName}</b>
+                    {provider && (
+                      <span
+                        className="chip chip-outline"
+                        style={{ fontSize: '11px', padding: '1px 8px' }}
+                      >
+                        {provider}
+                      </span>
+                    )}
+                    {amount && (
+                      <span
+                        className="chip"
+                        style={{
+                          fontSize: '11px',
+                          padding: '1px 8px',
+                          background: 'var(--color-surface-hover, #f1f5f9)',
+                          color: 'var(--color-primary, #059669)',
+                          fontWeight: 600,
+                        }}
+                      >
+                        {amount}
+                      </span>
+                    )}
+                  </div>
 
                   <span>
                     {item.applied_at
@@ -228,7 +299,7 @@ export default function Applications() {
                       onChange={(event) =>
                         updateStatus(item, event.target.value)
                       }
-                      aria-label={`Update status for ${getScholarshipName(item)}`}
+                      aria-label={`Update status for ${scholarshipName}`}
                     >
                       <option value="NOT_APPLIED">Not Applied</option>
                       {STATUSES.map((status) => (
@@ -238,6 +309,43 @@ export default function Applications() {
                       ))}
                     </select>
                   </label>
+
+                  {onOpen && (
+                    <button
+                      type="button"
+                      className="secondary-btn"
+                      style={{ height: '32px', padding: '0 10px', fontSize: '12px' }}
+                      onClick={() =>
+                        onOpen(
+                          item.scholarship || {
+                            id: scholarshipId,
+                            scholarship_id: scholarshipId,
+                            name: scholarshipName,
+                            provider,
+                            scholarship_amount: item.scholarship_amount,
+                          }
+                        )
+                      }
+                    >
+                      Details
+                    </button>
+                  )}
+
+                  <button
+                    type="button"
+                    className="icon-btn"
+                    style={{
+                      color: '#ef4444',
+                      borderColor: '#fee2e2',
+                      background: '#fff5f5',
+                    }}
+                    title="Stop tracking this application"
+                    aria-label={`Remove application for ${scholarshipName}`}
+                    onClick={() => deleteApp(item)}
+                    disabled={deletingId === scholarshipId}
+                  >
+                    <Icon name="close" size={15} />
+                  </button>
 
                   {isUpdating && (
                     <span className="muted">Saving...</span>

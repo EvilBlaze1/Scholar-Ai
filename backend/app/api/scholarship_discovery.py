@@ -1,4 +1,3 @@
-
 import logging
 
 from fastapi import APIRouter, HTTPException, Query
@@ -21,6 +20,10 @@ def discover_scholarships(
         max_length=200,
         description="Keywords to find scholarships in India",
     ),
+    refresh: bool = Query(
+        False,
+        description="Bypass search cache",
+    ),
 ):
     """Search the Internet for scholarship opportunities."""
 
@@ -30,6 +33,7 @@ def discover_scholarships(
         results = search_web(
             query=query,
             num_results=10,
+            use_cache=not refresh,
         )
 
         if not isinstance(results, list):

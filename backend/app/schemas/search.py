@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, Union
 
 
 class ScholarshipSearchResult(BaseModel):
@@ -9,7 +9,8 @@ class ScholarshipSearchResult(BaseModel):
     source_url: Optional[str] = None
 
     application_deadline: Optional[str] = None
-    scholarship_amount: Optional[str] = None
+    scholarship_amount: Optional[Union[str, float, int]] = None
+    match_score: Optional[float] = None
 
     eligible_categories: list[str] = []
     eligible_genders: list[str] = []
@@ -26,3 +27,5 @@ class PersonalizedSearchResponse(BaseModel):
     queries: list[str]
     count: int
     results: list[ScholarshipSearchResult]
+    cached: Optional[bool] = False
+    search_errors: Optional[int] = 0

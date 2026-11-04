@@ -1,0 +1,4466 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R] /Count 24 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+8 0 obj
+<< /Length 9988 >>
+stream
+q
+0.04 0.07 0.12 rg 0 421.89 595.28 420.0 re f
+0.39 0.40 0.95 rg 0 417.89 595.28 4 re f
+BT /F2 36 Tf 1.0 1.0 1.0 rg
+50 741.89 Td (SCHOLAR AI) Tj ET
+BT /F2 13 Tf 0.55 0.58 0.98 rg
+50 711.89 Td (Full-Stack AI-Assisted Scholarship Discovery & Matching Platform) Tj ET
+BT /F1 9.5 Tf 0.80 0.85 0.92 rg
+50 671.89 Td (An intelligent engineering system combining real-time Google Serper search,) Tj ET
+50 657.89 Td (automated BeautifulSoup web extraction, deterministic 9-rule evaluation, and) Tj ET
+50 643.89 Td (application lifecycle tracking for Indian higher education students.) Tj ET
+0.10 0.15 0.25 rg 0.22 0.30 0.45 RG 0.5 w
+50.0 541.89 115 55 re B
+BT /F2 8.5 Tf 0.45 0.85 0.65 rg
+58.0 575.89 Td (53 Tests Passing) Tj ET
+BT /F1 7.5 Tf 0.70 0.75 0.85 rg
+58.0 557.89 Td (Pytest Suite) Tj ET
+0.10 0.15 0.25 rg 0.22 0.30 0.45 RG 0.5 w
+175.0 541.89 115 55 re B
+BT /F2 8.5 Tf 0.45 0.85 0.65 rg
+183.0 575.89 Td (FastAPI + React 18) Tj ET
+BT /F1 7.5 Tf 0.70 0.75 0.85 rg
+183.0 557.89 Td (Decoupled Architecture) Tj ET
+0.10 0.15 0.25 rg 0.22 0.30 0.45 RG 0.5 w
+300.0 541.89 115 55 re B
+BT /F2 8.5 Tf 0.45 0.85 0.65 rg
+308.0 575.89 Td (Argon2id + JWT) Tj ET
+BT /F1 7.5 Tf 0.70 0.75 0.85 rg
+308.0 557.89 Td (Multi-Hasher Security) Tj ET
+0.10 0.15 0.25 rg 0.22 0.30 0.45 RG 0.5 w
+425.0 541.89 115 55 re B
+BT /F2 8.5 Tf 0.45 0.85 0.65 rg
+433.0 575.89 Td (Serper + BS4) Tj ET
+BT /F1 7.5 Tf 0.70 0.75 0.85 rg
+433.0 557.89 Td (Live Web Extraction) Tj ET
+Q
+q
+0.98 0.99 1.0 rg 0.85 0.88 0.93 RG 1.0 w
+50 70.0 505.28 300.0 re B
+BT /F2 13 Tf 0.10 0.14 0.22 rg
+70 335.0 Td (SYSTEM SPECIFICATION & ARCHITECTURAL AUDIT) Tj ET
+0.39 0.40 0.95 RG 1.5 w
+70 328.0 m 360 328.0 l S
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 300.0 Td (Platform Name:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 300.0 Td (Scholar AI \(Production Milestone 2.1.0\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 280.5 Td (Target Demographics:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 280.5 Td (Indian College & University Students \(B.Tech, MBBS, B.Sc, B.Com, etc.\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 261.0 Td (Frontend Stack:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 261.0 Td (React 18 Single Page Application, Vite 5, React Router v6, Pure CSS) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 241.5 Td (UI Design System:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 241.5 Td (Modern Clean Dark SaaS \(Linear & Stripe Design Tokens\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 222.0 Td (Backend Framework:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 222.0 Td (FastAPI 0.115+, Python 3.11+, Pydantic v2, Uvicorn ASGI Server) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 202.5 Td (Database Engine:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 202.5 Td (MongoDB Atlas \(Cloud M0 Replica Set\), PyMongo 4.6+, TLS CA Handshake) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 183.0 Td (Authentication:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 183.0 Td (Argon2id Multi-Hasher, Legacy Bcrypt Auto-Upgrade, 7-Day JWT \(HS256\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 163.5 Td (Discovery Pipeline:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 163.5 Td (Serper Google Search API, BS4 Scraper, Rupee Heuristic with Rs.500 Floor) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 144.0 Td (Rule Evaluation:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 144.0 Td (Deterministic 9-Rule Engine \(Income, Category, Domicile, Cutoff, Synonyms\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 124.5 Td (Test Coverage:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 124.5 Td (53 Passing Pytest Unit & Integration Tests \(100% Core Regression Pass\)) Tj ET
+BT /F2 8.0 Tf 0.25 0.30 0.40 rg
+70 105.0 Td (Generated Date:) Tj ET
+BT /F1 8.0 Tf 0.15 0.20 0.28 rg
+195 105.0 Td (November 2026) Tj ET
+Q
+q
+BT /F2 16 Tf 0.06 0.09 0.16 rg
+45.0 771.89 Td (Scholar AI  --  Complete Project Documentation) Tj ET
+0.39 0.40 0.95 RG 2.0 w
+45.0 765.89 m 550.28 765.89 l S
+Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 712.89 505.28 37.0 re B
+0.39 0.40 0.95 rg
+45.0 712.89 3.5 37.0 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 739.89 Td (**AI-Assisted Scholarship Discovery, Live Web Extraction & Deterministic) Tj
+59.0 728.39 Td (Eligibility Matching Platform for Indian College Students**) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 679.39 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 679.39 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 694.89 Td (**Version:** 2.1.0) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 645.89 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 645.89 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 661.39 Td (**Author & Architect:** Full-Stack AI Engineering Team) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 612.39 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 612.39 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 627.89 Td (**Repository:** [Scholar AI]\(file:///d:/Scholar%20AI\)) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 578.89 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 578.89 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 594.39 Td (**Backend Framework:** FastAPI \(Python 3.11+\)) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 545.39 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 545.39 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 560.89 Td (**Frontend Framework:** React 18 + Vite \(SPA\)) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 511.89 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 511.89 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 527.39 Td (**Database:** MongoDB Atlas \(PyMongo\)) Tj
+ET Q
+q
+0.96 0.97 0.99 rg 0.88 0.91 0.96 RG 0.5 w
+45.0 478.39 505.28 25.5 re B
+0.39 0.40 0.95 rg
+45.0 478.39 3.5 25.5 re f
+BT /F3 8.0 Tf 0.22 0.28 0.38 rg
+59.0 493.89 Td (**Authentication:** Dual-Hasher Argon2id / Legacy Bcrypt + JWT \(HS256\)) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 466.39 Td (Table of Contents) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 462.39 m 550.28 462.39 l S
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 448.39 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 448.39 Td ([Chapter 1: Project Introduction]\(#chapter-1-project-introduction\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 433.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 433.89 Td ([Chapter 2: Technology Stack]\(#chapter-2-technology-stack\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 419.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 419.39 Td ([Chapter 3: System Architecture]\(#chapter-3-system-architecture\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 404.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 404.89 Td ([Chapter 4: Repository and Folder) Tj
+67.0 393.39 Td (Structure]\(#chapter-4-repository-and-folder-structure\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 378.89 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 378.89 Td ([Chapter 5: Frontend Implementation]\(#chapter-5-frontend-implementation\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 364.39 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 364.39 Td ([Chapter 6: Backend Implementation]\(#chapter-6-backend-implementation\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 349.89 Td (7.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 349.89 Td ([Chapter 7: API Documentation]\(#chapter-7-api-documentation\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 335.39 Td (8.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 335.39 Td ([Chapter 8: Database Documentation]\(#chapter-8-database-documentation\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 320.89 Td (9.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 320.89 Td ([Chapter 9: Authentication and Security]\(#chapter-9-authentication-and-security\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 306.39 Td (10.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 306.39 Td ([Chapter 10: Scholarship Discovery) Tj
+67.0 294.89 Td (Pipeline]\(#chapter-10-scholarship-discovery-pipeline\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 280.39 Td (11.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 280.39 Td ([Chapter 11: Eligibility Rule Engine]\(#chapter-11-eligibility-rule-engine\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 265.89 Td (12.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 265.89 Td ([Chapter 12: Scholarship Matching and) Tj
+67.0 254.39 Td (Scoring]\(#chapter-12-scholarship-matching-and-scoring\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 239.89 Td (13.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 239.89 Td ([Chapter 13: Saved Scholarships Feature]\(#chapter-13-saved-scholarships-feature\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 225.39 Td (14.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 225.39 Td ([Chapter 14: Application Tracker Feature]\(#chapter-14-application-tracker-feature\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 210.89 Td (15.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 210.89 Td ([Chapter 15: Complete End-to-End) Tj
+67.0 199.39 Td (Workflows]\(#chapter-15-complete-end-to-end-workflows\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 184.89 Td (16.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 184.89 Td ([Chapter 16: Installation and Local) Tj
+67.0 173.39 Td (Setup]\(#chapter-16-installation-and-local-setup\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 158.89 Td (17.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 158.89 Td ([Chapter 17: Environment Variables) Tj
+67.0 147.39 Td (Reference]\(#chapter-17-environment-variables-reference\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 132.89 Td (18.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 132.89 Td ([Chapter 18: Testing and Quality) Tj
+67.0 121.38999999999999 Td (Assurance]\(#chapter-18-testing-and-quality-assurance\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 106.88999999999999 Td (19.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 106.88999999999999 Td ([Chapter 19: Deployment Guide]\(#chapter-19-deployment-guide\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 92.38999999999999 Td (20.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 92.38999999999999 Td ([Chapter 20: Troubleshooting Guide]\(#chapter-20-troubleshooting-guide\)) Tj
+ET Q
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 6991 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 2 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (21.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td ([Chapter 21: Technical Decisions and) Tj
+67.0 760.39 Td (Tradeoffs]\(#chapter-21-technical-decisions-and-tradeoffs\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 745.89 Td (22.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 745.89 Td ([Chapter 22: Limitations and Future) Tj
+67.0 734.39 Td (Scope]\(#chapter-22-limitations-and-future-scope\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 719.89 Td (23.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 719.89 Td ([Chapter 23: Complete Technical Interview) Tj
+67.0 708.39 Td (Preparation]\(#chapter-23-complete-technical-interview-preparation\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 693.89 Td (24.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 693.89 Td ([Chapter 24: Technical Glossary]\(#chapter-24-technical-glossary\)) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 679.39 Td (Chapter 1: Project Introduction) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 675.39 m 550.28 675.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 661.39 Td (1.1 Project Overview) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 647.39 Td (**Scholar AI** is a full-stack, intelligent web platform designed to democratize higher) Tj
+45.0 635.89 Td (education financial aid for Indian college and university students. The platform bridges the) Tj
+45.0 624.39 Td (information gap between thousands of public, corporate CSR \(Corporate Social) Tj
+45.0 612.89 Td (Responsibility\), non-governmental, and state-funded scholarship schemes and the students) Tj
+45.0 601.39 Td (who desperately qualify for them.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 585.89 Td (By combining **live web search \(Serper Google API\)**, **automated document scraping &) Tj
+45.0 574.39 Td (heuristic normalization \(BeautifulSoup4\)**, a **deterministic 9-point rule evaluation) Tj
+45.0 562.89 Td (engine**, and an **application lifecycle tracker**, Scholar AI replaces fragmented, outdated) Tj
+45.0 551.39 Td (blog posts with transparent, personalized, and actionable scholarship recommendations.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 535.89 Td (1.2 Problem Statement) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 521.89 Td (In India, hundreds of crores in scholarship funds lapse or go unclaimed each academic year) Tj
+45.0 510.39 Td (due to five systemic failure points:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 494.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 494.89 Td (**Severe Information Asymmetry:** Schemes are scattered across Central Government) Tj
+67.0 483.39 Td (portals \(NSP\), State welfare portals \(Mahadbt, e-Kalyan, OASIS\), corporate CSR) Tj
+67.0 471.89 Td (trusts \(Tata, Reliance, Infosys, HDFC, Aditya Birla\), and private NGOs.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 457.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 457.39 Td (**Ambiguous & Complex Eligibility Criteria:** Eligibility notices feature dense legal) Tj
+67.0 445.89 Td (and academic criteria: income ceilings \(often specified in Lakhs per annum\),) Tj
+67.0 434.39 Td (caste/social category tiers \(General, OBC, SC, ST, EWS\), domicile restrictions,) Tj
+67.0 422.89 Td (minimum cut-offs \(sometimes CGPA on a 10-point scale, sometimes percentage\), age) Tj
+67.0 411.39 Td (caps, gender quotas, and specific degree/course restrictions.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 396.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 396.89 Td (**Stale Information & Fraudulent Portals:** Many popular educational portals list) Tj
+67.0 385.39 Td (expired scholarships with obsolete deadlines or host ad-heavy clickbait redirects) Tj
+67.0 373.89 Td (designed to harvest student contact details without offering direct application links.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 359.39 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 359.39 Td (**Lack of Centralized Tracking:** Once a student discovers a scholarship, managing) Tj
+67.0 347.89 Td (document submission, application deadlines, status tracking \(Applied, Under Review,) Tj
+67.0 336.39 Td (Awarded\), and renewal timelines is completely manual.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 321.89 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 321.89 Td (**Opaque "Black-Box" Recommendations:** Typical AI or search systems return a list of) Tj
+67.0 310.39 Td (links without explaining *why* the user is or is not eligible. A student rejected for) Tj
+67.0 298.89 Td (being Rs. 10,000 over an income ceiling receives no transparent feedback.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 284.39 Td (1.3 Objectives) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 270.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 270.39 Td (**Targeted Discovery:** Generate personalized, context-aware Google Search queries) Tj
+67.0 258.89 Td (utilizing the student's exact demographic, geographic, and academic attributes.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 244.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 244.39 Td (**Automated Data Extraction & Sanitization:** Automatically fetch live web results,) Tj
+67.0 232.89 Td (parse HTML, strip commercial clickbait domains, extract rupee award values) Tj
+67.0 221.39 Td (\(normalizing Lakh/Crore expressions\), and detect deadlines.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 206.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 206.89 Td (**Transparent Deterministic Eligibility:** Execute a strict, transparent 9-point) Tj
+67.0 195.39 Td (eligibility audit \(`ELIGIBLE`, `NEEDS_VERIFICATION`, `INELIGIBLE`\) accompanied by) Tj
+67.0 183.89 Td (human-readable explanations for every rule evaluated.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 169.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 169.39 Td (**Accurate Mathematical Matching:** Compute a normalized match percentage based) Tj
+67.0 157.89 Td (strictly on the ratio of passed criteria over evaluated criteria, prioritizing fully) Tj
+67.0 146.39 Td (verified opportunities first.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 131.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 131.89 Td (**End-to-End Application Lifecycle Management:** Empower students to save prospective) Tj
+67.0 120.38999999999999 Td (scholarships to an isolated private profile and track application statuses through an) Tj
+67.0 108.88999999999999 Td (interactive Kanban-style pipeline.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 94.38999999999999 Td (1.4 Target Users) Tj ET
+Q
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 7057 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 3 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (**Undergraduate & Postgraduate Students:** Enrolled in professional \(B.Tech, MBBS,) Tj
+67.0 760.39 Td (B.Arch, MBA\) and general \(B.Sc, B.Com, B.A., M.Sc\) degree programs across India.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 745.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 745.89 Td (**Economically Weaker Section \(EWS\) & Low-Income Families:** Students requiring fee) Tj
+67.0 734.39 Td (subsidies whose family income falls below standard thresholds \(Rs. 1 Lakh, Rs. 2.5) Tj
+67.0 722.89 Td (Lakhs, Rs. 6 Lakhs, or Rs. 8 Lakhs per annum\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 708.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 708.39 Td (**Reserved & Special Category Students:** SC, ST, OBC, EWS, and minority candidates) Tj
+67.0 696.89 Td (seeking dedicated government welfare schemes.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 682.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 682.39 Td (**Single Girl Child & Female Scholars:** Female students seeking gender-specific) Tj
+67.0 670.89 Td (initiatives \(e.g., Pragati Scholarship, UDAAN, L'Or al For Women in Science\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 656.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 656.39 Td (**Persons with Disabilities \(PwD\):** Differently abled scholars seeking specialized) Tj
+67.0 644.89 Td (assistive and tuition grants.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 630.39 Td (1.5 Real-World Use Cases) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 616.39 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 616.39 Td (**First-Generation Engineering Student:** A 2nd-year B.Tech student from Maharashtra) Tj
+67.0 604.89 Td (with a family annual income of Rs. 2,20,000, belonging to the OBC category with an 8.2) Tj
+67.0 593.39 Td (CGPA, signs up. Scholar AI queries central and state portals, normalizes her 8.2 CGPA) Tj
+67.0 581.89 Td (to 77.9%, verifies state domicile rules, and immediately surfaces the *Post-Matric) Tj
+67.0 570.39 Td (Scholarship for OBC Students \(Maharashtra\)* and *HDFC Badhte Kadam Scholarship* with) Tj
+67.0 558.89 Td (100% eligibility badges.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 544.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 544.39 Td (**Medical Student Seeking Corporate CSR Support:** An MBBS student with an Rs.) Tj
+67.0 532.89 Td (8,00,000 annual fee burden searches for private CSR grants. The live extractor) Tj
+67.0 521.39 Td (identifies merit-cum-means awards, parses award amounts up to Rs. 1,00,000, and) Tj
+67.0 509.89 Td (isolates authentic application portals.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 495.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 495.39 Td (**Application Deadline Management:** A student managing three concurrent applications) Tj
+67.0 483.89 Td (uses the Application Tracker to log submission dates, verify required documentation,) Tj
+67.0 472.39 Td (and receive alerts on the Dashboard for approaching deadlines.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 457.89 Td (1.6 Project Scope & Limitations) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 443.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 443.89 Td (**Current Scope:** Live search across public web sources via Serper API, in-memory +) Tj
+67.0 432.39 Td (MongoDB cache, deterministic 9-rule evaluation, multi-hash authentication, responsive) Tj
+67.0 420.89 Td (Linear/Stripe SaaS UI, and private save/track persistence.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 406.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 406.39 Td (**Current Limitations:** The platform does not submit applications on the student's) Tj
+67.0 394.89 Td (behalf \(government and CSR portals require direct Aadhaar biometric authentication or) Tj
+67.0 383.39 Td (OTP verification\). It relies on public web snippets and scraped HTML, which may) Tj
+67.0 371.89 Td (occasionally contain ambiguous deadline phrasing requiring manual student) Tj
+67.0 360.39 Td (verification.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 345.89 Td (Chapter 2: Technology Stack) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 341.89 m 550.28 341.89 l S
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 215.39 505.28 116.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 320.89 Td (==================================================================================...) Tj
+55.0 311.39 Td (                               SCHOLAR AI TECH STACK) Tj
+55.0 301.89 Td (==================================================================================...) Tj
+55.0 292.39 Td (Frontend:       React 18 \(SPA\) | Vite 5 | React Router v6 | Vanilla Modern CSS) Tj
+55.0 282.89 Td (Backend:        FastAPI 0.115+ | Python 3.11+ | Pydantic v2 | Uvicorn) Tj
+55.0 273.39 Td (Database:       MongoDB Atlas \(M0 Free Cloud Cluster\) | PyMongo 4.6+) Tj
+55.0 263.89 Td (Authentication: Argon2id \(pwdlib\) + Legacy Bcrypt Fallback | PyJWT \(HS256\)) Tj
+55.0 254.39 Td (Web Services:   Serper Google Search API | BeautifulSoup4 | Requests | Certifi) Tj
+55.0 244.89 Td (Testing:        Pytest 8+ | Pytest-Asyncio | HTTPX | Unittest Mock) Tj
+55.0 235.39 Td (Deployment:     Render \(Backend Web Service\) | Vercel \(Frontend Static Host\)) Tj
+55.0 225.89 Td (==================================================================================...) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 203.39 Td (2.1 Frontend Technologies) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 189.39 Td (#### React 18 \(Single Page Application\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 173.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 173.89 Td (**Role:** Drives the responsive user interface, component hierarchy, client-side) Tj
+67.0 162.39 Td (routing, and real-time state synchronization.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 147.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 147.89 Td (**Why Chosen:** Declarative UI model, virtual DOM reconciliation, rich ecosystem, and) Tj
+67.0 136.39 Td (universal developer familiarity.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 121.88999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 121.88999999999999 Td (**Key Modules Used:** Functional components, hooks \(`useState`, `useEffect`,) Tj
+67.0 110.38999999999999 Td (`useCallback`, `useMemo`, `useRef`, `useNavigate`, `useLocation`\), custom context) Tj
+67.0 98.88999999999999 Td (providers \(`AuthContext`\).) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 84.38999999999999 Td (#### Vite 5) Tj
+ET Q
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 7084 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 4 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (**Role:** Next-generation frontend build tool and local development server.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 757.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 757.39 Td (**Why Chosen:** Native ESM-based development server providing sub-50ms Hot Module) Tj
+67.0 745.89 Td (Replacement \(HMR\) and optimized Rollup production bundling yielding sub-300ms) Tj
+67.0 734.39 Td (builds.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 719.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 719.89 Td (**Key Configuration:** Proxies `/api` routes during development to) Tj
+67.0 708.39 Td (`http://127.0.0.1:8000` to prevent local CORS friction.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 693.89 Td (#### React Router v6) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 678.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 678.39 Td (**Role:** Declarative client-side routing, route protection guards, URL query) Tj
+67.0 666.89 Td (parameter synchronization, and navigation state.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 652.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 652.39 Td (**Key Implementation:** Handles seamless transitions between `/`, `/scholarships`,) Tj
+67.0 640.89 Td (`/saved`, `/applications`, `/profile`, `/scholarship/:id`, and `/auth`.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 626.39 Td (#### Vanilla Modern CSS \(Design System: Linear & Stripe SaaS\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 610.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 610.89 Td (**Role:** Pure CSS custom property \(variable\) architecture without external heavy) Tj
+67.0 599.39 Td (UI framework bloat \(no Tailwind, MUI, or Bootstrap\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 584.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 584.89 Td (**Design Aesthetic:** Deep space dark slate canvas \(`#0B0F19`, `#111827`,) Tj
+67.0 573.39 Td (`#1F2937`\), electric indigo/violet gradients \(`#6366F1` $\\to$ `#8B5CF6`\),) Tj
+67.0 561.89 Td (translucent glassmorphism \(`backdrop-filter: blur\(16px\)`\), micro-interactions, and) Tj
+67.0 550.39 Td (high-density information typography.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 535.89 Td (2.2 Backend Technologies) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 521.89 Td (#### FastAPI \(Python 3.11+\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 506.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 506.39 Td (**Role:** High-performance, asynchronous REST API server.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 491.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 491.89 Td (**Why Chosen:** Native Python type hints, automatic OpenAPI/Swagger documentation) Tj
+67.0 480.39 Td (\(`/docs`\), async event loop integration, lightweight footprint, and built-in) Tj
+67.0 468.89 Td (dependency injection system.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 454.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 454.39 Td (**Architecture:** 12 modular routers connected via an async lifespan lifecycle) Tj
+67.0 442.89 Td (manager.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 428.39 Td (#### Pydantic v2) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 412.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 412.89 Td (**Role:** Request and response data validation, strict schema enforcement, and type) Tj
+67.0 401.39 Td (serialization.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 386.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 386.89 Td (**Why Chosen:** Written in Rust core \(`pydantic-core`\) for blazingly fast) Tj
+67.0 375.39 Td (validation; automatic JSON schema generation and field validators for data hygiene) Tj
+67.0 363.89 Td (\(e.g., whitespace trimming and lowercasing email strings\).) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 349.39 Td (#### PyMongo 4.6+ with MongoDB Atlas) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 333.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 333.89 Td (**Role:** Official synchronous Python driver connecting to cloud-hosted MongoDB Atlas) Tj
+67.0 322.39 Td (clusters.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 307.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 307.89 Td (**Why Chosen:** Schema flexibility accommodates diverse scholarship structures, rich) Tj
+67.0 296.39 Td (document modeling, and native compound indexes. Configured with `certifi.where\(\)`) Tj
+67.0 284.89 Td (for robust SSL/TLS certificate chain resolution on Windows environments.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 270.39 Td (2.3 Security & Authentication Technologies) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 256.39 Td (#### Argon2id \(`pwdlib`\) + Legacy Bcrypt Fallback) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 240.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 240.89 Td (**Role:** Industrial-grade password hashing engine.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 226.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 226.39 Td (**Why Chosen:** Argon2id is the winner of the Password Hashing Competition \(PHC\),) Tj
+67.0 214.89 Td (providing state-of-the-art resistance against GPU/ASIC brute-force attacks via tunable) Tj
+67.0 203.39 Td (memory and time cost parameters.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 188.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 188.89 Td (**Dual-Hasher Architecture:** Configured via `PasswordHash\(\(Argon2Hasher\(\),) Tj
+67.0 177.39 Td (BcryptHasher\(\)\)\)` with an automated fallback to `bcrypt.checkpw\(\)`. Upon) Tj
+67.0 165.89 Td (successful authentication of legacy `$2b$` Bcrypt hashes, the user's password hash is) Tj
+67.0 154.39 Td (dynamically upgraded to Argon2id without interrupting the user.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 139.89 Td (#### PyJWT \(JSON Web Tokens\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 124.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 124.38999999999999 Td (**Role:** Stateless, cryptographically signed user session tokens.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 109.88999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 109.88999999999999 Td (**Algorithm:** HMAC with SHA-256 \(`HS256`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 95.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 95.38999999999999 Td (**Payload:** User ID \(`sub`\), email, issuer \(`iss: scholar-ai`\), and 7-day) Tj
+67.0 83.88999999999999 Td (expiration \(`exp`\). Extracted securely via FastAPI `HTTPBearer` dependency.) Tj
+ET Q
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 5731 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 5 of 24) Tj ET
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 771.89 Td (2.4 Scraping & Search Services) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 757.89 Td (#### Serper Google Search API) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 742.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 742.39 Td (**Role:** Fast, reliable Google Search engine API returning structured search) Tj
+67.0 730.89 Td (snippets, organic results, knowledge graphs, and source URLs without IP blocking or) Tj
+67.0 719.39 Td (CAPTCHA barriers.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 704.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 704.89 Td (**Integration:** Asynchronous and synchronous fallback wrappers with dynamic query) Tj
+67.0 693.39 Td (construction tailored to student academic profiles.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 678.89 Td (#### BeautifulSoup4 \(`bs4`\) & Requests) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 663.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 663.39 Td (**Role:** Web scraping, DOM traversal, and semantic text extraction.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 648.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 648.89 Td (**Responsibilities:** Fetches target scholarship pages, removes script/style noise,) Tj
+67.0 637.39 Td (strips boilerplate headers/footers, and extracts structured eligibility sentences,) Tj
+67.0 625.89 Td (rupee award amounts, and deadline strings.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 611.39 Td (Chapter 3: System Architecture) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 607.39 m 550.28 607.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 593.39 Td (3.1 High-Level Architecture Overview) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 579.39 Td (Scholar AI is structured as a decoupled, multi-tier client-server architecture:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 563.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 563.89 Td (**Presentation Layer \(Frontend\):** React SPA hosted on Vercel, interacting with) Tj
+67.0 552.39 Td (backend services exclusively over HTTPS REST endpoints.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 537.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 537.89 Td (**API & Orchestration Layer \(FastAPI\):** Cloud-hosted on Render, managing CORS,) Tj
+67.0 526.39 Td (rate limits, dependency injection, and router delegation.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 511.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 511.89 Td (**Domain Service Layer:** Pure business logic handling deterministic rule evaluation,) Tj
+67.0 500.39 Td (score calculation, web scraping, and data normalization.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 485.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 485.89 Td (**Data Access Layer \(Repositories\):** Encapsulated MongoDB operations utilizing) Tj
+67.0 474.39 Td (PyMongo with compound unique indexes.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 459.89 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 459.89 Td (**Persistence & External Service Layer:** MongoDB Atlas \(M0 replica set\) and Serper) Tj
+67.0 448.39 Td (Google Search API.) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 93.38999999999999 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 426.89 Td (flowchart TD) Tj
+55.0 417.39 Td (    subgraph Client["Presentation Layer \\\(Client Browser\\\)"]) Tj
+55.0 407.89 Td (        UI["React 18 SPA \\\(Vite\\\)<br/>Linear/Stripe Dark SaaS UI"]) Tj
+55.0 398.39 Td (        AuthCtx["Auth Context & State"]) Tj
+55.0 388.89 Td (        Router["React Router v6"]) Tj
+55.0 379.39 Td (    end) Tj
+55.0 369.89 Td () Tj
+55.0 360.39 Td (    subgraph CDN["Edge & CDN"]) Tj
+55.0 350.89 Td (        Vercel["Vercel Edge Network"]) Tj
+55.0 341.39 Td (    end) Tj
+55.0 331.89 Td () Tj
+55.0 322.39 Td (    subgraph Backend["Application Server \\\(Render Cloud\\\)"]) Tj
+55.0 312.89 Td (        FastAPI["FastAPI Application \\\(ASGI / Uvicorn\\\)"]) Tj
+55.0 303.39 Td (        CORS["CORSMiddleware"]) Tj
+55.0 293.89 Td (        AuthDep["HTTPBearer JWT Dependency"]) Tj
+55.0 284.39 Td (        ) Tj
+55.0 274.89 Td (        subgraph Routers["API Routers \\\(12 Modules\\\)"]) Tj
+55.0 265.39 Td (            R_Auth["auth.py"]) Tj
+55.0 255.89 Td (            R_Student["student.py"]) Tj
+55.0 246.39 Td (            R_Scholarship["scholarship.py"]) Tj
+55.0 236.89 Td (            R_Discovery["scholarship_discovery.py"]) Tj
+55.0 227.39 Td (            R_Saved["saved_scholarship.py"]) Tj
+55.0 217.89 Td (            R_App["application.py"]) Tj
+55.0 208.39 Td (            R_Dash["dashboard.py"]) Tj
+55.0 198.89 Td (        end) Tj
+55.0 189.39 Td () Tj
+55.0 179.89 Td (        subgraph Services["Domain Service Layer"]) Tj
+55.0 170.39 Td (            S_Auth["auth_service.py"]) Tj
+55.0 160.89 Td (            S_Engine["eligibility_engine.py"]) Tj
+55.0 151.39 Td (            S_Match["matching_service.py"]) Tj
+55.0 141.89 Td (            S_Search["scholarship_search_service.py"]) Tj
+55.0 132.39 Td (            S_Extract["scholarship_extraction_service.py"]) Tj
+55.0 122.88999999999999 Td (            S_Convert["web_scholarship_converter.py"]) Tj
+55.0 113.38999999999999 Td (            S_Cache["search_cache.py"]) Tj
+55.0 103.88999999999999 Td (        end) Tj
+ET Q
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4649 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 6 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 545.39 505.28 230.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td () Tj
+55.0 755.39 Td (        subgraph Repositories["Data Access Layer"]) Tj
+55.0 745.89 Td (            Repo_User["user_repository.py"]) Tj
+55.0 736.39 Td (            Repo_Student["student_repository.py"]) Tj
+55.0 726.89 Td (            Repo_Scholar["scholarship_repository.py"]) Tj
+55.0 717.39 Td (            Repo_Saved["saved_scholarship_repository.py"]) Tj
+55.0 707.89 Td (            Repo_App["application_repository.py"]) Tj
+55.0 698.39 Td (        end) Tj
+55.0 688.89 Td (    end) Tj
+55.0 679.39 Td () Tj
+55.0 669.89 Td (    subgraph External["External Cloud Infrastructure"]) Tj
+55.0 660.39 Td (        Atlas[\\\("MongoDB Atlas Cloud<br/>\\\(TLS / certifi CA\\\)"\\\)]) Tj
+55.0 650.89 Td (        SerperAPI["Serper Google Search API"]) Tj
+55.0 641.39 Td (    end) Tj
+55.0 631.89 Td () Tj
+55.0 622.39 Td (    UI --> Vercel) Tj
+55.0 612.89 Td (    UI -- "REST API \\\(JSON over HTTPS\\\)" --> FastAPI) Tj
+55.0 603.39 Td (    FastAPI --> CORS --> AuthDep --> Routers) Tj
+55.0 593.89 Td (    Routers --> Services) Tj
+55.0 584.39 Td (    Services --> Repositories) Tj
+55.0 574.89 Td (    Services -- "HTTP REST" --> SerperAPI) Tj
+55.0 565.39 Td (    Services -- "L1 Memory / L2 Cache" --> S_Cache) Tj
+55.0 555.89 Td (    Repositories -- "PyMongo Driver" --> Atlas) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 533.39 Td (3.2 Frontend-Backend Communication Flow) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 150.39 505.28 373.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 512.39 Td (sequenceDiagram) Tj
+55.0 502.89 Td (    autonumber) Tj
+55.0 493.39 Td (    actor Student as Student \(Browser\)) Tj
+55.0 483.89 Td (    participant UI as React UI \(Scholarships.jsx\)) Tj
+55.0 474.39 Td (    participant API as Frontend API Client \(api.js\)) Tj
+55.0 464.89 Td (    participant FastAPIServer as FastAPI Backend \(/api/scholarship-discovery\)) Tj
+55.0 455.39 Td (    participant DiscService as Scholarship Search Service) Tj
+55.0 445.89 Td (    participant Cache as Search Cache \(L1 Mem + L2 Mongo\)) Tj
+55.0 436.39 Td (    participant Serper as Serper Google API) Tj
+55.0 426.89 Td (    participant Scraper as BeautifulSoup4 Extractor) Tj
+55.0 417.39 Td (    participant Engine as Eligibility Rule Engine) Tj
+55.0 407.89 Td (    participant DB as MongoDB Atlas) Tj
+55.0 398.39 Td () Tj
+55.0 388.89 Td (    Student->>UI: Clicks "Discover Scholarships") Tj
+55.0 379.39 Td (    UI->>API: discoverScholarships\(studentProfile\)) Tj
+55.0 369.89 Td (    API->>FastAPIServer: POST /api/scholarship-discovery/discover {profile}) Tj
+55.0 360.39 Td (    FastAPIServer->>DiscService: search_and_evaluate\(profile\)) Tj
+55.0 350.89 Td (    DiscService->>Cache: check_cache\(hash\(query\)\)) Tj
+55.0 341.39 Td (    ) Tj
+55.0 331.89 Td (    alt Cache Hit) Tj
+55.0 322.39 Td (        Cache-->>DiscService: Cached Raw Results) Tj
+55.0 312.89 Td (    else Cache Miss) Tj
+55.0 303.39 Td (        DiscService->>Serper: POST https://google.serper.dev/search {queries}) Tj
+55.0 293.89 Td (        Serper-->>DiscService: Raw Search Snippets & Links) Tj
+55.0 284.39 Td (        DiscService->>Scraper: Scrape & Extract Details\(links\)) Tj
+55.0 274.89 Td (        Scraper-->>DiscService: Normalized Extracted Scholarships) Tj
+55.0 265.39 Td (        DiscService->>Cache: Store in Cache\(TTL: 24h\)) Tj
+55.0 255.89 Td (    end) Tj
+55.0 246.39 Td () Tj
+55.0 236.89 Td (    loop For Each Extracted Scholarship) Tj
+55.0 227.39 Td (        DiscService->>Engine: evaluate_eligibility\(studentProfile, scholarshipRul...) Tj
+55.0 217.89 Td (        Engine-->>DiscService: Result \(ELIGIBLE / NEEDS_VERIFICATION / INELIGIBLE...) Tj
+55.0 208.39 Td (    end) Tj
+55.0 198.89 Td () Tj
+55.0 189.39 Td (    DiscService->>FastAPIServer: Ranked & Sorted Results) Tj
+55.0 179.89 Td (    FastAPIServer-->>API: 200 OK { count, scholarships: [...] }) Tj
+55.0 170.39 Td (    API-->>UI: Update State & Render Cards) Tj
+55.0 160.89 Td (    UI-->>Student: Display Badges, Match Scores, Breakdown) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 138.39 Td (3.3 Authentication & Authorization Flow) Tj ET
+Q
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 5347 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 7 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 431.39 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (sequenceDiagram) Tj
+55.0 755.39 Td (    autonumber) Tj
+55.0 745.89 Td (    actor User as User) Tj
+55.0 736.39 Td (    participant AuthPage as Auth.jsx \\\(Sign In / Up\\\)) Tj
+55.0 726.89 Td (    participant AuthService as Backend auth_service.py) Tj
+55.0 717.39 Td (    participant Sec as Security Engine \\\(pwdlib / bcrypt\\\)) Tj
+55.0 707.89 Td (    participant UserRepo as user_repository.py) Tj
+55.0 698.39 Td (    participant DB as MongoDB \\\(users collection\\\)) Tj
+55.0 688.89 Td () Tj
+55.0 679.39 Td (    User->>AuthPage: Enters Email & Password) Tj
+55.0 669.89 Td (    AuthPage->>AuthService: POST /api/auth/login {email, password}) Tj
+55.0 660.39 Td (    AuthService->>UserRepo: find_by_email\\\(normalized_email\\\)) Tj
+55.0 650.89 Td (    ) Tj
+55.0 641.39 Td (    Note over UserRepo,DB: 3-Tier Lookup: Exact -> Lowercase -> Case-Insensitive R...) Tj
+55.0 631.89 Td (    UserRepo->>DB: find_one\\\({"email": regex}\\\)) Tj
+55.0 622.39 Td (    DB-->>UserRepo: User Document \\\(with stored password_hash\\\)) Tj
+55.0 612.89 Td (    ) Tj
+55.0 603.39 Td (    alt User Not Found) Tj
+55.0 593.89 Td (        UserRepo-->>AuthService: None) Tj
+55.0 584.39 Td (        AuthService-->>AuthPage: 401 Unauthorized \\\(Invalid credentials\\\)) Tj
+55.0 574.89 Td (    else User Exists) Tj
+55.0 565.39 Td (        AuthService->>Sec: verify_password\\\(plain_password, password_hash\\\)) Tj
+55.0 555.89 Td (        ) Tj
+55.0 546.39 Td (        alt Argon2id Hash Matches) Tj
+55.0 536.89 Td (            Sec-->>AuthService: True \\\(Valid\\\)) Tj
+55.0 527.39 Td (        else Legacy $2b$ Bcrypt Hash Matches) Tj
+55.0 517.89 Td (            Sec-->>AuthService: True \\\(Valid, needs upgrade\\\)) Tj
+55.0 508.39 Td (            AuthService->>Sec: hash_password\\\(plain_password\\\) -> Argon2id) Tj
+55.0 498.89 Td (            AuthService->>UserRepo: update_password\\\(user_id, new_argon2_hash\\\)) Tj
+55.0 489.39 Td (            UserRepo->>DB: update_one\\\(\\\)) Tj
+55.0 479.89 Td (        else Hash Mismatch) Tj
+55.0 470.39 Td (            Sec-->>AuthService: False) Tj
+55.0 460.89 Td (            AuthService-->>AuthPage: 401 Unauthorized) Tj
+55.0 451.39 Td (        end) Tj
+55.0 441.89 Td () Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 354.39 505.28 69.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 412.39 Td (        AuthService->>Sec: create_access_token\\\(user_id, email\\\)) Tj
+55.0 402.89 Td (        Sec-->>AuthService: JWT Token \\\(HS256, 7-day expiration\\\)) Tj
+55.0 393.39 Td (        AuthService-->>AuthPage: 200 OK {access_token, token_type: "bearer", user}) Tj
+55.0 383.89 Td (        AuthPage->>AuthPage: Persist token to localStorage) Tj
+55.0 374.39 Td (        AuthPage-->>User: Redirect to /dashboard) Tj
+55.0 364.89 Td (    end) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 342.39 Td (3.4 Scholarship Discovery Workflow) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 101.88999999999999 505.28 230.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 321.39 Td (flowchart TD) Tj
+55.0 311.89 Td (    Start\([User Initiates Discovery]\) --> FetchProfile[Fetch Student Profile fro...) Tj
+55.0 302.39 Td (    FetchProfile --> GenQueries[Build Personalized Search Queries<br/>- Education ...) Tj
+55.0 292.89 Td (    ) Tj
+55.0 283.39 Td (    GenQueries --> QueryHash[Compute Deterministic SHA-256 Hash]) Tj
+55.0 273.89 Td (    QueryHash --> CacheCheck{Cache Hit in L1/L2?}) Tj
+55.0 264.39 Td (    ) Tj
+55.0 254.89 Td (    CacheCheck -- Yes --> LoadCached[Load Cached Scholarships]) Tj
+55.0 245.39 Td (    CacheCheck -- No --> SerperCall[Call Serper Google API]) Tj
+55.0 235.89 Td (    ) Tj
+55.0 226.39 Td (    SerperCall --> FilterDomains[Blacklist Junk / Commercial Domains<br/>Filter: c...) Tj
+55.0 216.89 Td (    FilterDomains --> ScrapePages[Scrape Pages & Parse Snippets BS4]) Tj
+55.0 207.39 Td (    ) Tj
+55.0 197.89 Td (    ScrapePages --> ExtractAmount[Extract Award Amount<br/>Parse Lakhs / Crores / ...) Tj
+55.0 188.39 Td (    ExtractAmount --> ExtractDeadline[Extract & Parse Application Deadlines]) Tj
+55.0 178.89 Td (    ExtractDeadline --> SaveCache[Persist to Cache with 24h TTL]) Tj
+55.0 169.39 Td (    ) Tj
+55.0 159.89 Td (    SaveCache --> LoadCached) Tj
+55.0 150.39 Td (    LoadCached --> RunRules[Run Deterministic 9-Rule Engine]) Tj
+55.0 140.89 Td (    RunRules --> ComputeScore[Calculate Percentage Match Score]) Tj
+55.0 131.39 Td (    ComputeScore --> SortRank[Sort: ELIGIBLE > NEEDS_VERIFICATION > INELIGIBLE<br/...) Tj
+55.0 121.88999999999999 Td (    SortRank --> RenderUI[Render Interactive Results on Frontend]) Tj
+55.0 112.38999999999999 Td (    RenderUI --> End\([User Explores Opportunities]\)) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 89.88999999999999 Td (3.5 Eligibility Evaluation Workflow) Tj ET
+Q
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 5200 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 8 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 431.39 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (flowchart TD) Tj
+55.0 755.39 Td (    In\([Student Profile + Scholarship Criteria]\) --> R1{Income <= Limit?}) Tj
+55.0 745.89 Td (    R1 -- No --> Fail1[Mark INELIGIBLE: Income Exceeded]) Tj
+55.0 736.39 Td (    R1 -- Yes / Missing --> R2{Category Matches?}) Tj
+55.0 726.89 Td (    ) Tj
+55.0 717.39 Td (    R2 -- No --> Fail2[Mark INELIGIBLE: Category Mismatch]) Tj
+55.0 707.89 Td (    R2 -- Yes / All / Missing --> R3{Domicile State Matches?}) Tj
+55.0 698.39 Td (    ) Tj
+55.0 688.89 Td (    R3 -- No --> Fail3[Mark INELIGIBLE: State Mismatch]) Tj
+55.0 679.39 Td (    R3 -- Yes / All-India --> R4{Education Level Matches?}) Tj
+55.0 669.89 Td (    ) Tj
+55.0 660.39 Td (    R4 -- No --> Fail4[Mark INELIGIBLE: Education Level Mismatch]) Tj
+55.0 650.89 Td (    R4 -- Yes / Missing --> R5{Course in Synonym Cluster?}) Tj
+55.0 641.39 Td (    ) Tj
+55.0 631.89 Td (    R5 -- No --> Fail5[Mark INELIGIBLE: Course Ineligible]) Tj
+55.0 622.39 Td (    R5 -- Yes / Any --> R6{Academic Score >= Cutoff?<br/>Convert CGPA * 9.5 <-> %}) Tj
+55.0 612.89 Td (    ) Tj
+55.0 603.39 Td (    R6 -- No --> Fail6[Mark INELIGIBLE: Score Below Cutoff]) Tj
+55.0 593.89 Td (    R6 -- Yes / Missing --> R7{Age <= Maximum Age?}) Tj
+55.0 584.39 Td (    ) Tj
+55.0 574.89 Td (    R7 -- No --> Fail7[Mark INELIGIBLE: Age Exceeded]) Tj
+55.0 565.39 Td (    R7 -- Yes / Missing --> R8{Gender Matches?}) Tj
+55.0 555.89 Td (    ) Tj
+55.0 546.39 Td (    R8 -- No --> Fail8[Mark INELIGIBLE: Gender Restricted]) Tj
+55.0 536.89 Td (    R8 -- Yes / All --> R9{Disability Criteria Met?}) Tj
+55.0 527.39 Td (    ) Tj
+55.0 517.89 Td (    R9 -- No --> Fail9[Mark INELIGIBLE: PwD Required]) Tj
+55.0 508.39 Td (    R9 -- Yes / Not Required --> CheckMissing{Any Criteria Unspecified<br/>in Web ...) Tj
+55.0 498.89 Td (    ) Tj
+55.0 489.39 Td (    CheckMissing -- Yes --> StatusNV[Set Status: NEEDS_VERIFICATION<br/>Flag crite...) Tj
+55.0 479.89 Td (    CheckMissing -- No --> StatusEligible[Set Status: ELIGIBLE<br/>100% Determinis...) Tj
+55.0 470.39 Td (    ) Tj
+55.0 460.89 Td (    Fail1 & Fail2 & Fail3 & Fail4 & Fail5 & Fail6 & Fail7 & Fail8 & Fail9 --> Stat...) Tj
+55.0 451.39 Td (    ) Tj
+55.0 441.89 Td (    StatusNV & StatusEligible & StatusIneligible --> Out\([Return EligibilityResul...) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 419.39 Td (3.6 Saved Scholarship Workflow) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 93.38999999999999 505.28 316.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 398.39 Td (sequenceDiagram) Tj
+55.0 388.89 Td (    autonumber) Tj
+55.0 379.39 Td (    actor Student as Student) Tj
+55.0 369.89 Td (    participant Card as ScholarshipCard.jsx) Tj
+55.0 360.39 Td (    participant SaveService as saved_scholarship_service.py) Tj
+55.0 350.89 Td (    participant SaveRepo as saved_scholarship_repository.py) Tj
+55.0 341.39 Td (    participant Mongo as MongoDB \(saved_scholarships\)) Tj
+55.0 331.89 Td () Tj
+55.0 322.39 Td (    Student->>Card: Clicks "Save Scholarship" Bookmark) Tj
+55.0 312.89 Td (    Card->>Card: Optimistic UI Update \(Icon fills, state changes immediately\)) Tj
+55.0 303.39 Td (    Card->>SaveService: POST /api/saved-scholarships/ {scholarship_id, ...}) Tj
+55.0 293.89 Td (    SaveService->>SaveRepo: save_scholarship\(user_id, scholarship_data\)) Tj
+55.0 284.39 Td (    ) Tj
+55.0 274.89 Td (    SaveRepo->>Mongo: update_one\({"user_id": uid, "scholarship_id": sid}, {"$setO...) Tj
+55.0 265.39 Td (    ) Tj
+55.0 255.89 Td (    alt Successfully Saved) Tj
+55.0 246.39 Td (        Mongo-->>SaveRepo: Upserted / Matched) Tj
+55.0 236.89 Td (        SaveRepo-->>SaveService: SavedScholarship Document) Tj
+55.0 227.39 Td (        SaveService-->>Card: 200 OK {success: true, saved: true}) Tj
+55.0 217.89 Td (    else Network / Server Failure) Tj
+55.0 208.39 Td (        SaveService-->>Card: 500 Error) Tj
+55.0 198.89 Td (        Card->>Card: Revert Optimistic UI \(Display Error Toast\)) Tj
+55.0 189.39 Td (    end) Tj
+55.0 179.89 Td () Tj
+55.0 170.39 Td (    Note over Student,Mongo: Unsaving Workflow) Tj
+55.0 160.89 Td (    Student->>Card: Clicks "Saved" to Unsave) Tj
+55.0 151.39 Td (    Card->>Card: Optimistic UI Update \(Icon clears\)) Tj
+55.0 141.89 Td (    Card->>SaveService: DELETE /api/saved-scholarships/{scholarship_id}) Tj
+55.0 132.39 Td (    SaveService->>SaveRepo: remove_saved_scholarship\(user_id, scholarship_id\)) Tj
+55.0 122.88999999999999 Td (    SaveRepo->>Mongo: delete_one\({"user_id": uid, "scholarship_id": sid}\)) Tj
+55.0 113.38999999999999 Td (    Mongo-->>SaveRepo: Deleted Count: 1) Tj
+55.0 103.88999999999999 Td (    SaveRepo-->>Card: 200 OK {success: true, saved: false}) Tj
+ET Q
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 5713 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 9 of 24) Tj ET
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 771.89 Td (3.7 Application Tracker Workflow) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 531.39 505.28 230.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 750.89 Td (sequenceDiagram) Tj
+55.0 741.39 Td (    autonumber) Tj
+55.0 731.89 Td (    actor Student as Student) Tj
+55.0 722.39 Td (    participant AppUI as Applications.jsx) Tj
+55.0 712.89 Td (    participant AppService as application_service.py) Tj
+55.0 703.39 Td (    participant AppRepo as application_repository.py) Tj
+55.0 693.89 Td (    participant Mongo as MongoDB \(applications\)) Tj
+55.0 684.39 Td () Tj
+55.0 674.89 Td (    Student->>AppUI: Clicks "Track Application") Tj
+55.0 665.39 Td (    AppUI->>AppService: POST /api/applications/ {scholarship_id, title, status: "D...) Tj
+55.0 655.89 Td (    AppService->>AppRepo: create_application\(user_id, application_dict\)) Tj
+55.0 646.39 Td (    AppRepo->>Mongo: insert_one\({"user_id": uid, "status": "DRAFT", ...}\)) Tj
+55.0 636.89 Td (    Mongo-->>AppRepo: inserted_id) Tj
+55.0 627.39 Td (    AppRepo-->>AppUI: 201 Created {application_id, status: "DRAFT"}) Tj
+55.0 617.89 Td () Tj
+55.0 608.39 Td (    Note over Student,Mongo: Moving Application Through Pipeline) Tj
+55.0 598.89 Td (    Student->>AppUI: Changes Status dropdown to "APPLIED" & Enters Submission Date) Tj
+55.0 589.39 Td (    AppUI->>AppService: PATCH /api/applications/{app_id} {status: "APPLIED", appli...) Tj
+55.0 579.89 Td (    AppService->>AppRepo: update_application\(user_id, app_id, updates\)) Tj
+55.0 570.39 Td (    AppRepo->>Mongo: update_one\({"_id": ObjectId\(app_id\), "user_id": uid}, {"$s...) Tj
+55.0 560.89 Td (    Mongo-->>AppRepo: modified_count: 1) Tj
+55.0 551.39 Td (    AppRepo-->>AppUI: 200 OK {application: updated_doc}) Tj
+55.0 541.89 Td (    AppUI-->>Student: Update Pipeline Column & Display Success Toast) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 519.39 Td (Chapter 4: Repository and Folder Structure) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 515.39 m 550.28 515.39 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 501.39 Td (The Scholar AI repository adheres to a clean separation of concerns:) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 145.39 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 478.89 Td (d:\\\\Scholar AI\\\\) Tj
+55.0 469.39 Td (    .gitignore                      # Git exclusion rules for node_modules, .venv,...) Tj
+55.0 459.89 Td (    README.md                       # Root production documentation and quickstart) Tj
+55.0 450.39 Td (    package.json                    # Workspace metadata \\\(if present\\\)) Tj
+55.0 440.89 Td ( ) Tj
+55.0 431.39 Td (    backend\\\\                        # FastAPI Backend Application Root) Tj
+55.0 421.89 Td (        .env                        # Local backend environment variables \\\(excl...) Tj
+55.0 412.39 Td (        requirements.txt            # Python dependencies \\\(FastAPI, PyMongo, Py...) Tj
+55.0 402.89 Td (     ) Tj
+55.0 393.39 Td (        app\\\\                        # Application package root) Tj
+55.0 383.89 Td (            __init__.py             # Package marker) Tj
+55.0 374.39 Td (            main.py                 # FastAPI initialization, CORS, lifespan, rout...) Tj
+55.0 364.89 Td (         ) Tj
+55.0 355.39 Td (            api\\\\                    # API presentation layer \\\(HTTP Routers\\\)) Tj
+55.0 345.89 Td (                __init__.py) Tj
+55.0 336.39 Td (                application.py      # Application tracker routes \\\(CRUD & status...) Tj
+55.0 326.89 Td (                auth.py             # User signup, login, and token issuance) Tj
+55.0 317.39 Td (                dashboard.py        # Aggregated stats, upcoming deadlines, activi...) Tj
+55.0 307.89 Td (                eligibility.py      # Standalone eligibility evaluation endpoints) Tj
+55.0 298.39 Td (                explanation.py      # Natural language eligibility justification e...) Tj
+55.0 288.89 Td (                matching.py         # Match score calculation endpoints) Tj
+55.0 279.39 Td (                personalized_search.py # Search query generation based on student ...) Tj
+55.0 269.89 Td (                saved_scholarship.py# User bookmarking and saved scholarship routes) Tj
+55.0 260.39 Td (                scholarship.py      # Curated database scholarship CRUD routes) Tj
+55.0 250.89 Td (                scholarship_discovery.py # Live Serper search & extraction orchest...) Tj
+55.0 241.39 Td (                search.py           # Basic keyword search routes) Tj
+55.0 231.89 Td (                student.py          # Student academic profile management routes) Tj
+55.0 222.39 Td (         ) Tj
+55.0 212.89 Td (            core\\\\                   # Cross-cutting infrastructure concerns) Tj
+55.0 203.39 Td (                __init__.py) Tj
+55.0 193.89 Td (                config.py           # Pydantic BaseSettings loading environment va...) Tj
+55.0 184.39 Td (                search_cache.py     # L1 memory + L2 MongoDB TTL search caching sy...) Tj
+55.0 174.89 Td (                security.py         # Dual-hasher Argon2id/Bcrypt + JWT encoding/d...) Tj
+55.0 165.39 Td (         ) Tj
+55.0 155.89 Td (            database\\\\               # Data access layer \\\(MongoDB Repositorie...) Tj
+ET Q
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 7023 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 10 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 431.39 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (                __init__.py) Tj
+55.0 755.39 Td (                application_repository.py # PyMongo persistence for student applic...) Tj
+55.0 745.89 Td (                collections.py      # Central collection accessors & index creation) Tj
+55.0 736.39 Td (                connection.py       # MongoClient singleton with certifi TLS CA in...) Tj
+55.0 726.89 Td (                saved_scholarship_repository.py # Persistence for saved bookmarks) Tj
+55.0 717.39 Td (                scholarship_repository.py # Persistence for curated scholarships) Tj
+55.0 707.89 Td (                student_repository.py # Persistence for student demographic profiles) Tj
+55.0 698.39 Td (                user_repository.py  # User credentials and 3-tier lookup engine) Tj
+55.0 688.89 Td (         ) Tj
+55.0 679.39 Td (            models\\\\                 # Low-level data structures & MongoDB repre...) Tj
+55.0 669.89 Td (                __init__.py) Tj
+55.0 660.39 Td (                application.py      # Application domain model) Tj
+55.0 650.89 Td (                eligibility_rule.py # Rule definitions for income, category, state...) Tj
+55.0 641.39 Td (                scholarship.py      # Database scholarship representation) Tj
+55.0 631.89 Td (                student.py          # Student profile database representation) Tj
+55.0 622.39 Td (         ) Tj
+55.0 612.89 Td (            schemas\\\\                # Pydantic validation models \\\(Request/Re...) Tj
+55.0 603.39 Td (                __init__.py) Tj
+55.0 593.89 Td (                application.py      # CreateApplicationRequest, ApplicationResponse) Tj
+55.0 584.39 Td (                auth.py             # UserRegister, UserLogin, TokenResponse) Tj
+55.0 574.89 Td (                dashboard.py        # DashboardSummaryResponse) Tj
+55.0 565.39 Td (                eligibility.py      # EligibilityEvaluationRequest, RuleResultResp...) Tj
+55.0 555.89 Td (                matching.py         # MatchScoreRequest, MatchScoreResponse) Tj
+55.0 546.39 Td (                saved_scholarship.py# SavedScholarshipCreate, SavedScholarshipResp...) Tj
+55.0 536.89 Td (                scholarship.py      # ScholarshipBase, ScholarshipDetailResponse) Tj
+55.0 527.39 Td (                search.py           # SearchFilterRequest, SearchQueryResponse) Tj
+55.0 517.89 Td (                student.py          # StudentProfileCreate, StudentProfileUpdate) Tj
+55.0 508.39 Td (                user.py             # UserProfileResponse, EmailValidationSchema) Tj
+55.0 498.89 Td (         ) Tj
+55.0 489.39 Td (            search\\\\                 # Search client wrappers) Tj
+55.0 479.89 Td (                __init__.py) Tj
+55.0 470.39 Td (                web_search.py       # Serper Google Search API client) Tj
+55.0 460.89 Td (         ) Tj
+55.0 451.39 Td (            services\\\\               # Pure domain business logic layer) Tj
+55.0 441.89 Td (                __init__.py) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 78.88999999999999 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 412.39 Td (                application_service.py # Application tracking lifecycle business l...) Tj
+55.0 402.89 Td (                auth_service.py     # User registration, authentication & password...) Tj
+55.0 393.39 Td (                dashboard_service.py# Dashboard metric computation & deadline alerts) Tj
+55.0 383.89 Td (                eligibility_engine.py # Core deterministic 9-point rule evaluation...) Tj
+55.0 374.39 Td (                matching_service.py # Match percentage calculation & rank sorting) Tj
+55.0 364.89 Td (                scholarship_extraction_service.py # BeautifulSoup4 scraping & amou...) Tj
+55.0 355.39 Td (                scholarship_search_service.py # Search orchestration & query synth...) Tj
+55.0 345.89 Td (                web_eligibility_parser.py # Regex extraction of rules from web text) Tj
+55.0 336.39 Td (                web_eligibility_service.py # Evaluation of live web scholarship data) Tj
+55.0 326.89 Td (                web_scholarship_converter.py # Raw web data to structured schema c...) Tj
+55.0 317.39 Td (     ) Tj
+55.0 307.89 Td (        tests\\\\                      # Pytest automated test suite \\\(53 passin...) Tj
+55.0 298.39 Td (            __init__.py) Tj
+55.0 288.89 Td (            conftest.py             # Shared fixtures \\\(in-memory mock DB, sampl...) Tj
+55.0 279.39 Td (            test_application_service.py # Test application state transitions & tra...) Tj
+55.0 269.89 Td (            test_auth_login_resilience.py # Test case sensitivity, whitespace & lo...) Tj
+55.0 260.39 Td (            test_auth_security.py   # Test Argon2id hashing, Bcrypt upgrade & JWT ...) Tj
+55.0 250.89 Td (            test_dashboard_deadlines.py # Test deadline parsing & urgent alert logic) Tj
+55.0 241.39 Td (            test_eligibility_engine_enhancements.py # Test 9 rules, synonyms, conv...) Tj
+55.0 231.89 Td (            test_saved_repository_duplicates.py # Test compound index uniqueness) Tj
+55.0 222.39 Td (            test_saved_scholarship_service.py # Test bookmark business logic) Tj
+55.0 212.89 Td (            test_saved_scholarships_api.py # Test save/unsave REST endpoints) Tj
+55.0 203.39 Td (            test_scholarship_extraction.py # Test rupee parser, blacklist & false ...) Tj
+55.0 193.89 Td (            test_search_cache.py    # Test L1/L2 caching, SHA-256 keys & circuit b...) Tj
+55.0 184.39 Td (            test_web_converter.py   # Test schema normalization for web scraped ob...) Tj
+55.0 174.89 Td (            test_web_eligibility_parser.py # Test regex criteria parsing from raw ...) Tj
+55.0 165.39 Td ( ) Tj
+55.0 155.89 Td (    frontend\\\\                       # React Single Page Application Root) Tj
+55.0 146.39 Td (        index.html                  # HTML5 entry point with Inter font & viewport...) Tj
+55.0 136.89 Td (        package.json                # Frontend dependencies & npm scripts \\\(vite...) Tj
+55.0 127.38999999999999 Td (        vite.config.js              # Vite configuration & development proxy setup) Tj
+55.0 117.88999999999999 Td (     ) Tj
+55.0 108.38999999999999 Td (        src\\\\                        # Frontend source code) Tj
+55.0 98.88999999999999 Td (            main.jsx                # React root mount \\\(createRoot\\\) with Bro...) Tj
+55.0 89.38999999999999 Td (            App.jsx                 # Application shell, route mapping & AuthProvi...) Tj
+ET Q
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 7005 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 11 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 459.89 505.28 316.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (            App.css                 # Linear/Stripe SaaS design system & responsiv...) Tj
+55.0 755.39 Td (         ) Tj
+55.0 745.89 Td (            components\\\\             # Reusable UI components) Tj
+55.0 736.39 Td (                Icons.jsx           # Crisp SVG icon library \\\(Lucide-inspired\\\)) Tj
+55.0 726.89 Td (                Layout.jsx          # SaaS Shell with sidebar, breadcrumbs & user ...) Tj
+55.0 717.39 Td (                ScholarshipCard.jsx # High-density card with match score, badges &...) Tj
+55.0 707.89 Td (         ) Tj
+55.0 698.39 Td (            context\\\\                # Global state management) Tj
+55.0 688.89 Td (                AuthContext.jsx     # User authentication state, token storage & l...) Tj
+55.0 679.39 Td (         ) Tj
+55.0 669.89 Td (            pages\\\\                  # Top-level view pages) Tj
+55.0 660.39 Td (                Applications.jsx    # Application Tracker with status columns & mo...) Tj
+55.0 650.89 Td (                Auth.jsx            # Sign In / Sign Up tabbed form with live feed...) Tj
+55.0 641.39 Td (                Dashboard.jsx       # Overview, profile completion %, metrics & de...) Tj
+55.0 631.89 Td (                Details.jsx         # In-depth scholarship view with rule breakdown) Tj
+55.0 622.39 Td (                Profile.jsx         # 12-field student demographic & academic editor) Tj
+55.0 612.89 Td (                Saved.jsx           # Bookmarked scholarships collection view) Tj
+55.0 603.39 Td (                Scholarships.jsx    # Live discovery engine with search filters & ...) Tj
+55.0 593.89 Td (         ) Tj
+55.0 584.39 Td (            services\\\\               # Frontend HTTP API client) Tj
+55.0 574.89 Td (                api.js              # Fetch wrappers, JWT injection & error handling) Tj
+55.0 565.39 Td (     ) Tj
+55.0 555.89 Td (        public\\\\                     # Static public assets \\\(favicons, manife...) Tj
+55.0 546.39 Td ( ) Tj
+55.0 536.89 Td (    docs\\\\                           # Comprehensive Documentation Suite) Tj
+55.0 527.39 Td (        API_DOCUMENTATION.md        # Complete 12-router REST endpoint reference) Tj
+55.0 517.89 Td (        ARCHITECTURE.md             # High-level architecture & 7 Mermaid diagrams) Tj
+55.0 508.39 Td (        DATABASE_DOCUMENTATION.md   # MongoDB Atlas collections, schemas & indexes) Tj
+55.0 498.89 Td (        INTERVIEW_PREPARATION.md    # Elevator pitches, deep Q&A & debugging case ...) Tj
+55.0 489.39 Td (        SETUP_AND_DEPLOYMENT.md     # Local setup guide & cloud deployment instruc...) Tj
+55.0 479.89 Td (        CHANGELOG.md                # Detailed release notes & commit history) Tj
+55.0 470.39 Td (        SCHOLAR_AI_COMPLETE_DOCUMENTATION.md # This 24-chapter master document) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 447.89 Td (Chapter 5: Frontend Implementation) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 443.89 m 550.28 443.89 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 429.89 Td (5.1 Architecture & Design System) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 415.89 Td (The frontend is constructed using React 18, bundled with Vite 5, and styled using a custom) Tj
+45.0 404.39 Td (CSS system inspired by **Linear** and **Stripe**. The UI emphasizes visual hierarchy, high) Tj
+45.0 392.89 Td (density of actionable data, sub-50ms interaction feedback, and glassmorphic micro-details.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 377.39 Td (#### Visual Palette & Design Tokens \(`App.css`\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 361.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 361.89 Td (**Background Slate:** Deep space dark canvas \(`#0B0F19`\) paired with elevated card) Tj
+67.0 350.39 Td (surfaces \(`#111827`, `#1F2937`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 335.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 335.89 Td (**Brand Accents:** Electric Indigo \(`#6366F1`\) and Violet \(`#8B5CF6`\) gradients) Tj
+67.0 324.39 Td (for primary calls to action, active sidebar links, and match score rings.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 309.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 309.89 Td (**Semantic Badges:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 295.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 295.39 Td (*Eligible / High Match:* Emerald Green \(`#10B981`, background `rgba\(16, 185, 129,) Tj
+67.0 283.89 Td (0.12\)`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 269.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 269.39 Td (*Needs Verification / Medium Match:* Amber Gold \(`#F59E0B`, background `rgba\(245,) Tj
+67.0 257.89 Td (158, 11, 0.12\)`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 243.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 243.39 Td (*Ineligible / Low Match:* Crimson Rose \(`#EF4444`, background `rgba\(239, 68, 68,) Tj
+67.0 231.89 Td (0.12\)`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 217.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 217.39 Td (**Typography:** Inter sans-serif typeface paired with monospace numbers for financial) Tj
+67.0 205.89 Td (figures and percentage scores.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 191.39 Td (5.2 Key Frontend Components) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 177.39 Td (#### 1. `Layout.jsx`) Tj
+45.0 165.89 Td (\([Layout.jsx]\(file:///d:/Scholar%20AI/frontend/src/components/Layout.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 150.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 150.39 Td (**Responsibilities:** Renders the persistent left navigation sidebar, breadcrumb) Tj
+67.0 138.89 Td (trail, user profile pill, and dynamic content viewport.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 124.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 124.38999999999999 Td (**Key Features:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 109.88999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 109.88999999999999 Td (Active route highlighting with glow indicators.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 95.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 95.38999999999999 Td (Collapsible mobile navigation drawer with hamburger toggle.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 80.88999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 80.88999999999999 Td (Safe desktop layout without duplicate bottom navigation bars.) Tj
+ET Q
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 7331 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 12 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (Direct logout trigger tied to `AuthContext`.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 757.39 Td (#### 2. `ScholarshipCard.jsx`) Tj
+45.0 745.89 Td (\([ScholarshipCard.jsx]\(file:///d:/Scholar%20AI/frontend/src/components/ScholarshipCard.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 730.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 730.39 Td (**Responsibilities:** Displays individual scholarship summaries across Discovery,) Tj
+67.0 718.89 Td (Saved, and Dashboard views.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 704.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 704.39 Td (**Key Features:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 689.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 689.89 Td (Radial match percentage badge with dynamic color transitions \($>75\\%$ emerald,) Tj
+67.0 678.39 Td ($50\\text{--}74\\%$ amber, $<50\\%$ rose\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 663.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 663.89 Td (Parsed award amount highlighted in prominent bold rupee figures \(e.g., `Rs. 50,000 /) Tj
+67.0 652.39 Td (year`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 637.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 637.89 Td (Deadline countdown pill indicating remaining days with warning colors for urgent) Tj
+67.0 626.39 Td (cut-offs.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 611.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 611.89 Td (Optimistic Save/Unsave bookmark button with instant visual response.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 597.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 597.39 Td (Direct link to official application portal \(with `rel="noopener noreferrer"`) Tj
+67.0 585.89 Td (security flags\) and "View Details" modal navigation.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 571.39 Td (#### 3. `Icons.jsx`) Tj
+45.0 559.89 Td (\([Icons.jsx]\(file:///d:/Scholar%20AI/frontend/src/components/Icons.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 544.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 544.39 Td (**Responsibilities:** Self-contained SVG icon repository providing crisp, lightweight) Tj
+67.0 532.89 Td (iconography \(GraduationCap, Search, Bookmark, Briefcase, User, Sparkles, Filter,) Tj
+67.0 521.39 Td (CheckCircle, AlertTriangle, XCircle, etc.\) without third-party icon bundle bloat.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 506.89 Td (5.3 Page Breakdown & State Flows) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 492.89 Td (#### 1. `Dashboard.jsx`) Tj
+45.0 481.39 Td (\([Dashboard.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Dashboard.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 465.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 465.89 Td (**Purpose:** Serves as the central command hub for the student upon logging in.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 451.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 451.39 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 436.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 436.89 Td (Computes and displays real-time **Profile Strength** \(0% to 100%\) checking all) Tj
+67.0 425.39 Td (current and legacy property aliases \(`annual_family_income`, `domicile_state`,) Tj
+67.0 413.89 Td (`score`, etc.\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 399.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 399.39 Td (Displays aggregated metric counters: *Matching Scholarships*, *Saved Bookmarks*,) Tj
+67.0 387.89 Td (*Applications in Progress*, and *Total Award Potential*.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 373.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 373.39 Td (Alerts student to urgent upcoming application deadlines \(within 7, 14, or 30 days\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 358.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 358.89 Td (Quick action shortcuts to trigger live discovery or edit profile.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 344.39 Td (#### 2. `Scholarships.jsx`) Tj
+45.0 332.89 Td (\([Scholarships.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Scholarships.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 317.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 317.39 Td (**Purpose:** Primary scholarship discovery and exploration interface.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 302.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 302.89 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 288.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 288.39 Td (Dual modes: *Curated Scholarships* \(curated database records\) and *Live AI) Tj
+67.0 276.89 Td (Discovery* \(real-time Serper scraping & evaluation\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 262.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 262.39 Td (Multi-tier filtering controls: Filter by Minimum Match Score, Category, Education) Tj
+67.0 250.89 Td (Level, State, and Search Query keywords.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 236.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 236.39 Td (Tabbed category switching: *All*, *Eligible Only*, *Needs Verification*, *High Value) Tj
+67.0 224.89 Td (\(>Rs. 50,000\)*.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 210.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 210.39 Td (Loading skeleton indicators during live search pipeline execution.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 195.89 Td (#### 3. `Saved.jsx` \([Saved.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Saved.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 180.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 180.39 Td (**Purpose:** Private student repository of bookmarked scholarship opportunities.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 165.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 165.89 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 151.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 151.39 Td (Fetches saved records directly from `/api/saved-scholarships/`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 136.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 136.89 Td (Enables instant removal \(unsave\) with optimistic UI updates.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 122.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 122.38999999999999 Td (Quick "Apply Now" launchpad directing students to official external application) Tj
+67.0 110.88999999999999 Td (portals.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 96.38999999999999 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 96.38999999999999 Td (Direct bridge to add any saved scholarship into the Application Tracker.) Tj
+ET Q
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 6770 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 13 of 24) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 771.89 Td (#### 4. `Applications.jsx`) Tj
+45.0 760.39 Td (\([Applications.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Applications.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 744.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 744.89 Td (**Purpose:** Full lifecycle application management pipeline.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 730.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 730.39 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 715.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 715.89 Td (Five distinct pipeline stages: `DRAFT`, `APPLIED`, `UNDER_REVIEW`, `ACCEPTED`,) Tj
+67.0 704.39 Td (`REJECTED`, `AWARDED`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 689.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 689.89 Td (Application editing modal: update submission dates, application reference IDs,) Tj
+67.0 678.39 Td (uploaded document checklists, and personal interview notes.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 663.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 663.89 Td (Instant status transition buttons to advance applications through stages.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 649.39 Td (#### 5. `Profile.jsx`) Tj
+45.0 637.89 Td (\([Profile.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Profile.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 622.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 622.39 Td (**Purpose:** Student academic, geographic, and demographic data configuration.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 607.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 607.89 Td (**Fields Managed:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 593.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 593.39 Td (Full Name, Email \(read-only/synchronized\), Phone Number.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 578.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 578.89 Td (State of Domicile \(Indian States & UTs dropdown\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 564.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 564.39 Td (Social Category \(`GENERAL`, `OBC`, `SC`, `ST`, `EWS`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 549.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 549.89 Td (Gender \(`MALE`, `FEMALE`, `OTHER`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 535.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 535.39 Td (Education Level \(`10TH`, `12TH`, `DIPLOMA`, `UNDERGRADUATE`, `POSTGRADUATE`,) Tj
+67.0 523.89 Td (`PHD`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 509.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 509.39 Td (Degree Course \(B.Tech, MBBS, B.Com, B.Sc, BCA, etc.\) and Specialization.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 494.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 494.89 Td (Annual Family Income \(INR numeric ceiling\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 480.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 480.39 Td (Academic Score \(Percentage or CGPA on a 10-point scale\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 465.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 465.89 Td (Age \(in years\) and Disability Status \(Yes/No with percentage\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 451.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 451.39 Td (**Validation:** Live input bounds checking \(e.g., CGPA $\\le 10$, percentage $\\le) Tj
+67.0 439.89 Td (100$, income $\\ge 0$\).) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 425.39 Td (#### 6. `Details.jsx`) Tj
+45.0 413.89 Td (\([Details.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Details.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 398.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 398.39 Td (**Purpose:** In-depth audit view of a single scholarship's eligibility breakdown.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 383.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 383.89 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 369.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 369.39 Td (Displays full scheme description, award breakdown, application process, and official) Tj
+67.0 357.89 Td (links.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 343.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 343.39 Td (Visual **Rule-by-Rule Audit Matrix**: Renders green checkmarks for passed rules,) Tj
+67.0 331.89 Td (amber warnings for rules needing verification, and red crosses for failed rules with) Tj
+67.0 320.39 Td (specific justifications.) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 305.89 Td (#### 7. `Auth.jsx` \([Auth.jsx]\(file:///d:/Scholar%20AI/frontend/src/pages/Auth.jsx\)\)) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 290.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 290.39 Td (**Purpose:** User authentication portal supporting Sign In and Sign Up.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 275.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 275.89 Td (**Capabilities:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 261.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 261.39 Td (Tabbed interface with seamless switching.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 246.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 246.89 Td (Client-side validation: email format regex, password length \($\\ge 6$ characters\),) Tj
+67.0 235.39 Td (confirmation matching.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 220.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 220.89 Td (Automatic token persistence to `localStorage` and global `AuthContext` initialization) Tj
+67.0 209.39 Td (upon success.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 194.89 Td (Chapter 6: Backend Implementation) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 190.89 m 550.28 190.89 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 176.89 Td (6.1 Application Architecture & Lifespan) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 162.89 Td (The backend is built with FastAPI, adhering to a strict **Controller-Service-Repository**) Tj
+45.0 151.39 Td (design pattern. The application lifecycle is governed by an asynchronous `lifespan` context) Tj
+45.0 139.89 Td (manager in `app/main.py`:) Tj
+ET Q
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 5839 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 14 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 697.39 505.28 78.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (@asynccontextmanager) Tj
+55.0 755.39 Td (async def lifespan\(app: FastAPI\):) Tj
+55.0 745.89 Td (    # Startup: Initialize MongoDB indexes and verify database connectivity) Tj
+55.0 736.39 Td (    init_db\(\)) Tj
+55.0 726.89 Td (    yield) Tj
+55.0 717.39 Td (    # Shutdown: Clean up connection pools and cached handles) Tj
+55.0 707.89 Td (    close_db\(\)) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 685.39 Td (6.2 CORS & Security Middleware) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 671.39 Td (`app/main.py` configures `CORSMiddleware` with explicit origin whitelisting:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 655.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 655.89 Td (Local development origins: `http://localhost:5173`, `http://127.0.0.1:5173`,) Tj
+67.0 644.39 Td (`http://localhost:3000`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 629.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 629.89 Td (Deployed production origins: `https://scholar-ai.vercel.app`, Vercel preview) Tj
+67.0 618.39 Td (deployment wildcards, and Render backend URLs.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 603.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 603.89 Td (Allows standard HTTP methods \(`GET`, `POST`, `PUT`, `PATCH`, `DELETE`, `OPTIONS`\)) Tj
+67.0 592.39 Td (and credentials headers \(`Authorization`, `Content-Type`\).) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 577.89 Td (6.3 Layered Architecture Details) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 346.89 505.28 221.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 556.89 Td (+-------------------------------------------------------------+) Tj
+55.0 547.39 Td (|                     API Routers \(12\)                        |) Tj
+55.0 537.89 Td (| - Parameter extraction, auth injection, Pydantic validation |) Tj
+55.0 528.39 Td (+------------------------------+------------------------------+) Tj
+55.0 518.89 Td (                               |) Tj
+55.0 509.39 Td (                               v) Tj
+55.0 499.89 Td (+-------------------------------------------------------------+) Tj
+55.0 490.39 Td (|                     Domain Services                         |) Tj
+55.0 480.89 Td (| - Pure business logic: rules, scoring, parsing, scraping     |) Tj
+55.0 471.39 Td (+------------------------------+------------------------------+) Tj
+55.0 461.89 Td (                               |) Tj
+55.0 452.39 Td (                               v) Tj
+55.0 442.89 Td (+-------------------------------------------------------------+) Tj
+55.0 433.39 Td (|                  Database Repositories                      |) Tj
+55.0 423.89 Td (| - Encapsulated PyMongo queries, projections, upserts        |) Tj
+55.0 414.39 Td (+------------------------------+------------------------------+) Tj
+55.0 404.89 Td (                               |) Tj
+55.0 395.39 Td (                               v) Tj
+55.0 385.89 Td (+-------------------------------------------------------------+) Tj
+55.0 376.39 Td (|                     MongoDB Atlas                           |) Tj
+55.0 366.89 Td (| - Collections: users, students, scholarships, etc.          |) Tj
+55.0 357.39 Td (+-------------------------------------------------------------+) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 334.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 334.89 Td (**Routers \(`app/api/`\):** Thin HTTP controllers. They do not execute database) Tj
+67.0 323.39 Td (queries or business algorithms directly; they validate inputs via Pydantic schemas,) Tj
+67.0 311.89 Td (verify JWT tokens using FastAPI's `Depends\(get_current_user\)`, call the service) Tj
+67.0 300.39 Td (layer, and return typed responses.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 285.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 285.89 Td (**Services \(`app/services/`\):** Stateless business logic handlers. They execute) Tj
+67.0 274.39 Td (algorithmic workflows: computing match percentages, running the 9-point rule engine,) Tj
+67.0 262.89 Td (querying Serper, scraping HTML with BeautifulSoup, and sanitizing extracted text.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 248.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 248.39 Td (**Repositories \(`app/database/`\):** Pure data access objects. They encapsulate) Tj
+67.0 236.89 Td (PyMongo calls, map BSON `_id` to string IDs, handle compound uniqueness constraints,) Tj
+67.0 225.39 Td (and manage database projections.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 210.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 210.89 Td (**Core Infrastructure \(`app/core/`\):** Manages configuration \(`config.py`\),) Tj
+67.0 199.39 Td (cryptographic hashing and token signing \(`security.py`\), and two-tier search caching) Tj
+67.0 187.89 Td (\(`search_cache.py`\).) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 173.39 Td (Chapter 7: API Documentation) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 169.39 m 550.28 169.39 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 155.39 Td (Scholar AI provides 12 dedicated REST API routers exposing 32 endpoints. Complete details,) Tj
+45.0 143.89 Td (schemas, and status codes are fully referenced below.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 128.39 Td (7.1 Router Overview Table) Tj ET
+Q
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 7886 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 15 of 24) Tj ET
+Q
+q
+0.93 0.95 0.98 rg 0.78 0.82 0.88 RG 0.5 w
+45.0 755.89 505.28 16.0 re B
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+51.0 760.39 Td (Router Prefix) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+177.32 760.39 Td (Responsibility) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+303.64 760.39 Td (Auth Required) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+429.96 760.39 Td (Key Endpoints) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 739.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 744.39 Td (`/api/auth`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 744.39 Td (User registration, aut..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 744.39 Td (No \(public\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 744.39 Td (`POST /register`, `POS..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 723.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 728.39 Td (`/api/student`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 728.39 Td (Student demographic & ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 728.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 728.39 Td (`GET /profile`, `POST ..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 707.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 712.39 Td (`/api/scholarships`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 712.39 Td (Curated database schol..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 712.39 Td (Read: No / Write: Yes) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 712.39 Td (`GET /`, `GET /{id}`, ..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 691.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 696.39 Td (`/api/eligibility`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 696.39 Td (Standalone eligibility..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 696.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 696.39 Td (`POST /evaluate`, `POS..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 675.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 680.39 Td (`/api/matching`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 680.39 Td (Match scoring & rankin..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 680.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 680.39 Td (`POST /score`, `POST /..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 659.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 664.39 Td (`/api/explanation`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 664.39 Td (Natural language eligi..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 664.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 664.39 Td (`POST /explain`) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 643.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 648.39 Td (`/api/dashboard`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 648.39 Td (Dashboard metrics, sta..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 648.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 648.39 Td (`GET /stats`, `GET /de..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 627.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 632.39 Td (`/api/saved-scholarshi..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 632.39 Td (Bookmark saving, unsav..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 632.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 632.39 Td (`GET /`, `POST /`, `DE..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 611.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 616.39 Td (`/api/applications`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 616.39 Td (Application tracking p..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 616.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 616.39 Td (`GET /`, `POST /`, `PA..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 595.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 600.39 Td (`/api/search`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 600.39 Td (Full-text & filtered d..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 600.39 Td (No \(public\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 600.39 Td (`GET /`) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 579.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 584.39 Td (`/api/personalized-sea..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 584.39 Td (Personalized search qu..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 584.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 584.39 Td (`POST /generate-queries`) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 563.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 568.39 Td (`/api/scholarship-disc..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 568.39 Td (Live Google Serper sea..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 568.39 Td (Yes \(Bearer\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 568.39 Td (`POST /discover`) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 553.89 Td (*\(Refer to [API_DOCUMENTATION.md]\(file:///d:/Scholar%20AI/docs/API_DOCUMENTATION.md\) for) Tj
+45.0 542.39 Td (full request/response JSON schemas for every endpoint\).*) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 526.89 Td (Chapter 8: Database Documentation) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 522.89 m 550.28 522.89 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 508.89 Td (The platform uses **MongoDB Atlas** \(Cloud Replica Set\). PyMongo communicates with the) Tj
+45.0 497.39 Td (database using TLS encryption verified via `certifi.where\(\)`.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 481.89 Td (8.1 Collections & Index Architecture) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 127.38999999999999 505.28 344.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 460.89 Td (erDiagram) Tj
+55.0 451.39 Td (    USERS ||--o| STUDENTS : "owns profile \\\(1:1\\\)") Tj
+55.0 441.89 Td (    USERS ||--o{ SAVED_SCHOLARSHIPS : "bookmarks \\\(1:N\\\)") Tj
+55.0 432.39 Td (    USERS ||--o{ APPLICATIONS : "tracks \\\(1:N\\\)") Tj
+55.0 422.89 Td (    SCHOLARSHIPS ||--o{ SAVED_SCHOLARSHIPS : "referenced in") Tj
+55.0 413.39 Td (    SCHOLARSHIPS ||--o{ APPLICATIONS : "applied to") Tj
+55.0 403.89 Td () Tj
+55.0 394.39 Td (    USERS {) Tj
+55.0 384.89 Td (        ObjectId _id PK) Tj
+55.0 375.39 Td (        string email UK "Indexed, Normalized") Tj
+55.0 365.89 Td (        string password_hash "Argon2id / Bcrypt") Tj
+55.0 356.39 Td (        string full_name) Tj
+55.0 346.89 Td (        date created_at) Tj
+55.0 337.39 Td (        date updated_at) Tj
+55.0 327.89 Td (    }) Tj
+55.0 318.39 Td () Tj
+55.0 308.89 Td (    STUDENTS {) Tj
+55.0 299.39 Td (        ObjectId _id PK) Tj
+55.0 289.89 Td (        string user_id FK "Indexed Unique") Tj
+55.0 280.39 Td (        string full_name) Tj
+55.0 270.89 Td (        string state_of_domicile) Tj
+55.0 261.39 Td (        string category) Tj
+55.0 251.89 Td (        string gender) Tj
+55.0 242.39 Td (        string education_level) Tj
+55.0 232.89 Td (        string course) Tj
+55.0 223.39 Td (        number family_income) Tj
+55.0 213.89 Td (        number academic_percentage) Tj
+55.0 204.39 Td (        number age) Tj
+55.0 194.89 Td (        boolean disability) Tj
+55.0 185.39 Td (    }) Tj
+55.0 175.89 Td () Tj
+55.0 166.39 Td (    SCHOLARSHIPS {) Tj
+55.0 156.89 Td (        ObjectId _id PK) Tj
+55.0 147.39 Td (        string title "Text Indexed") Tj
+55.0 137.89 Td (        string description) Tj
+ET Q
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 4192 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 16 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 459.89 505.28 316.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (        string provider) Tj
+55.0 755.39 Td (        number amount) Tj
+55.0 745.89 Td (        date deadline) Tj
+55.0 736.39 Td (        object eligibility_criteria) Tj
+55.0 726.89 Td (        string application_url) Tj
+55.0 717.39 Td (        boolean is_active) Tj
+55.0 707.89 Td (    }) Tj
+55.0 698.39 Td () Tj
+55.0 688.89 Td (    SAVED_SCHOLARSHIPS {) Tj
+55.0 679.39 Td (        ObjectId _id PK) Tj
+55.0 669.89 Td (        string user_id FK "Compound Index UK") Tj
+55.0 660.39 Td (        string scholarship_id FK "Compound Index UK") Tj
+55.0 650.89 Td (        date saved_at) Tj
+55.0 641.39 Td (        object scholarship_data) Tj
+55.0 631.89 Td (    }) Tj
+55.0 622.39 Td () Tj
+55.0 612.89 Td (    APPLICATIONS {) Tj
+55.0 603.39 Td (        ObjectId _id PK) Tj
+55.0 593.89 Td (        string user_id FK "Indexed") Tj
+55.0 584.39 Td (        string scholarship_id FK) Tj
+55.0 574.89 Td (        string status "DRAFT / APPLIED / etc.") Tj
+55.0 565.39 Td (        date applied_date) Tj
+55.0 555.89 Td (        date deadline) Tj
+55.0 546.39 Td (        string notes) Tj
+55.0 536.89 Td (    }) Tj
+55.0 527.39 Td () Tj
+55.0 517.89 Td (    SEARCH_CACHE {) Tj
+55.0 508.39 Td (        ObjectId _id PK) Tj
+55.0 498.89 Td (        string query_hash UK "Indexed SHA-256") Tj
+55.0 489.39 Td (        object results) Tj
+55.0 479.89 Td (        date created_at "TTL Index \\\(24h\\\)") Tj
+55.0 470.39 Td (    }) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 447.89 Td (8.2 Compound & Performance Indexes) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 433.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 433.89 Td (`users.email`: Unique index ensuring no duplicate accounts exist.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 419.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 419.39 Td (`students.user_id`: Unique index enforcing a strict 1-to-1 relationship between an) Tj
+67.0 407.89 Td (authenticated user and their academic profile.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 393.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 393.39 Td (`saved_scholarships.\(user_id, scholarship_id\)`: **Compound Unique Index**) Tj
+67.0 381.89 Td (preventing a user from bookmarking the same scholarship twice, guaranteeing) Tj
+67.0 370.39 Td (idempotency.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 355.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 355.89 Td (`applications.\(user_id, scholarship_id\)`: Fast compound lookup index for checking) Tj
+67.0 344.39 Td (application status.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 329.89 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 329.89 Td (`search_cache.created_at`: **MongoDB TTL \(Time-To-Live\) Index** set to expire) Tj
+67.0 318.39 Td (documents automatically after 86,400 seconds \(24 hours\).) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 303.89 Td (*\(Refer to) Tj
+45.0 292.39 Td ([DATABASE_DOCUMENTATION.md]\(file:///d:/Scholar%20AI/docs/DATABASE_DOCUMENTATION.md\) for) Tj
+45.0 280.89 Td (complete collection schemas and JSON samples\).*) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 265.39 Td (Chapter 9: Authentication and Security) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 261.39 m 550.28 261.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 247.39 Td (9.1 Multi-Hasher Architecture & Automatic Upgrades) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 233.39 Td (To resolve password hash compatibility across legacy migrations while upholding top-tier) Tj
+45.0 221.89 Td (cryptographic security, Scholar AI implements a dual-hasher security architecture in) Tj
+45.0 210.39 Td (`backend/app/core/security.py`:) Tj
+ET Q
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 4116 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 17 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 640.39 505.28 135.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (Incoming Password ) Tj
+55.0 755.39 Td (       |) Tj
+55.0 745.89 Td (       v) Tj
+55.0 736.39 Td (Check Hasher Format) Tj
+55.0 726.89 Td (       Starts with "$argon2id$"   > Verify with Argon2id   > Success!) Tj
+55.0 717.39 Td (    ) Tj
+55.0 707.89 Td (       Starts with "$2b$" / "$2a$"   > Verify with Bcrypt Fallback) Tj
+55.0 698.39 Td (                                             ) Tj
+55.0 688.89 Td (                                                Valid Password?) Tj
+55.0 679.39 Td (                                                      ) Tj
+55.0 669.89 Td (                                                         YES   > Re-hash to Argon2id) Tj
+55.0 660.39 Td (                                                                  Update User Reco...) Tj
+55.0 650.89 Td (                                                Invalid Password?   > 401 Unauthor...) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 628.39 Td (9.2 3-Tier Email Normalization & Lookup) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 614.39 Td (To eliminate user login failures caused by accidental trailing spaces or inconsistent) Tj
+45.0 602.89 Td (casing \(e.g., `User@example.com` vs `user@example.com `\), `user_repository.py` implements) Tj
+45.0 591.39 Td (a resilient 3-tier lookup:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 575.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 575.89 Td (**Tier 1 \(Exact Match\):** Direct match on the input string.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 561.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 561.39 Td (**Tier 2 \(Lowercase Normalized\):** Matches `email.strip\(\).lower\(\)`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 546.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 546.89 Td (**Tier 3 \(Case-Insensitive Regex Anchor\):** Queries MongoDB using `{"email":) Tj
+67.0 535.39 Td ({"$regex": f"^{re.escape\(cleaned\)}$", "$options": "i"}}`.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 520.89 Td (9.3 JWT Token Lifecycle) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 506.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 506.89 Td (**Algorithm:** `HS256` signed using a cryptographically secure `SECRET_KEY`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 492.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 492.39 Td (**Payload Claims:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 477.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 477.89 Td (`sub`: User ID string \(`ObjectId`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 463.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 463.39 Td (`email`: User's primary email.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 448.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 448.89 Td (`iss`: `"scholar-ai"`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 434.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 434.39 Td (`exp`: Unix timestamp representing 7 days from token issuance.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 419.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 419.89 Td (**Client Handling:** Stored in browser `localStorage`; injected via HTTP) Tj
+67.0 408.39 Td (`Authorization: Bearer <token>` header on all protected API calls.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 393.89 Td (Chapter 10: Scholarship Discovery Pipeline) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 389.89 m 550.28 389.89 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 375.89 Td (The scholarship discovery pipeline bridges the real-time public web with student profiles.) Tj
+ET Q
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 8368 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 18 of 24) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 478.89 505.28 297.0 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 764.89 Td (Personalized Profile) Tj
+55.0 755.39 Td (         ) Tj
+55.0 745.89 Td (         ) Tj
+55.0 736.39 Td (Query Synthesis     [ "B.Tech OBC scholarships Maharashtra", "engineering girls sc...) Tj
+55.0 726.89 Td (         ) Tj
+55.0 717.39 Td (         ) Tj
+55.0 707.89 Td (Deterministic Hash     SHA-256\("query_string_and_params"\)) Tj
+55.0 698.39 Td (         ) Tj
+55.0 688.89 Td (            [Cache Hit]     Fetch from L1 Memory or L2 MongoDB \(Sub-5ms\)) Tj
+55.0 679.39 Td (         ) Tj
+55.0 669.89 Td (            [Cache Miss]     Serper Google Search API) Tj
+55.0 660.39 Td (                                    ) Tj
+55.0 650.89 Td (                                    ) Tj
+55.0 641.39 Td (                         Domain Blacklist Filter) Tj
+55.0 631.89 Td (                         \(Drops: quora, pinterest, careers360 clickbait\)) Tj
+55.0 622.39 Td (                                    ) Tj
+55.0 612.89 Td (                                    ) Tj
+55.0 603.39 Td (                         HTML Scraper & BS4 Parser) Tj
+55.0 593.89 Td (                                    ) Tj
+55.0 584.39 Td (                                    ) Tj
+55.0 574.89 Td (                         Heuristic Rule Extractors) Tj
+55.0 565.39 Td (                         - Rupee Parser \(Rs. , Lakhs, Crores, >= Rs. 500 floor\)) Tj
+55.0 555.89 Td (                         - Deadline Regex \(DD/MM/YYYY, Month DD, YYYY\)) Tj
+55.0 546.39 Td (                         - Criteria Tokenizer \(income, category, course\)) Tj
+55.0 536.89 Td (                                    ) Tj
+55.0 527.39 Td (                                    ) Tj
+55.0 517.89 Td (                         Cache Results \(24h TTL\)) Tj
+55.0 508.39 Td (                                    ) Tj
+55.0 498.89 Td (                                    ) Tj
+55.0 489.39 Td (                         Eligibility Engine & Scoring) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 466.89 Td (10.1 Rupee Award Amount Extraction Heuristic) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 452.89 Td (Extracting financial award amounts from arbitrary web text requires differentiating between) Tj
+45.0 441.39 Td (actual scholarship stipends and irrelevant stray numbers \(e.g., "Section 2", "Page 5", "Rs.) Tj
+45.0 429.89 Td (2 processing fee"\).) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 414.39 Td (`scholarship_extraction_service.py` implements:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 398.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 398.89 Td (**Lakh & Crore Multipliers:** Captures expressions like `"Rs. 2.5 Lakhs"`, `"Rs 1.5) Tj
+67.0 387.39 Td (Lakh per annum"`, and converts them to integer rupees \(`250000`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 372.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 372.89 Td (**Direct Numeric INR Extraction:** Captures formats like `"Rs. 50,000"`, `"INR) Tj
+67.0 361.39 Td (75,000"`, `"Rs. 25,000/-"`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 346.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 346.89 Td (**The Rs. 500 Minimum Floor Guard:** Rejects extracted numbers below Rs. 500,) Tj
+67.0 335.39 Td (eliminating erroneous low-digit false positives \(fixing legacy bugs where "Part 2") Tj
+67.0 323.89 Td (resulted in a scholarship award of Rs. 2\).) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 309.39 Td (Chapter 11: Eligibility Rule Engine) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 305.39 m 550.28 305.39 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 291.39 Td (Scholar AI's eligibility engine \(`backend/app/services/eligibility_engine.py`\) evaluates) Tj
+45.0 279.89 Td (9 distinct criteria. Rather than using an unexplainable "black-box" machine learning model,) Tj
+45.0 268.39 Td (it uses a **transparent, deterministic rule-based evaluation** model.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 252.89 Td (11.1 The 9 Evaluation Rules) Tj ET
+Q
+q
+0.93 0.95 0.98 rg 0.78 0.82 0.88 RG 0.5 w
+45.0 222.89 505.28 16.0 re B
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+51.0 227.39 Td (#) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+177.32 227.39 Td (Rule Name) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+303.64 227.39 Td (Evaluation Logic) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+429.96 227.39 Td (Result States) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 206.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 211.39 Td (**1**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 211.39 Td (**Income Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 211.39 Td (Verifies `student.fami..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 211.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 190.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 195.39 Td (**2**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 195.39 Td (**Category Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 195.39 Td (Compares `student.cate..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 195.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 174.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 179.39 Td (**3**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 179.39 Td (**State Domicile Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 179.39 Td (Verifies student's sta..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 179.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 158.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 163.39 Td (**4**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 163.39 Td (**Education Level Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 163.39 Td (Validates current educ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 163.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 142.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 147.39 Td (**5**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 147.39 Td (**Course Synonym Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 147.39 Td (Matches degree courses..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 147.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 126.88999999999999 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 131.39 Td (**6**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 131.39 Td (**Score Cutoff Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 131.39 Td (Converts CGPA to perce..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 131.39 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 110.88999999999999 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 115.38999999999999 Td (**7**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 115.38999999999999 Td (**Age Limit Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 115.38999999999999 Td (Verifies `student.age ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 115.38999999999999 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 94.88999999999999 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 99.38999999999999 Td (**8**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 99.38999999999999 Td (**Gender Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 99.38999999999999 Td (Enforces gender criter..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 99.38999999999999 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 78.88999999999999 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 83.38999999999999 Td (**9**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 83.38999999999999 Td (**Disability Rule**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 83.38999999999999 Td (If scholarship specifi..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 83.38999999999999 Td (`PASSED`, `FAILED`, `N..) Tj ET
+Q
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 6470 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 19 of 24) Tj ET
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 771.89 Td (11.2 Status Classification Matrix) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 757.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 757.89 Td (**`ELIGIBLE`:** Every specified criteria evaluated resulted in `PASSED`. The student) Tj
+67.0 746.39 Td (qualifies for this opportunity.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 731.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 731.89 Td (**`NEEDS_VERIFICATION`:** No criteria failed, but one or more rules could not be) Tj
+67.0 720.39 Td (definitively evaluated because the scraped web listing did not explicitly state the) Tj
+67.0 708.89 Td (parameter \(e.g., income ceiling unspecified in snippet\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 694.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 694.39 Td (**`INELIGIBLE`:** At least one mandatory criterion resulted in `FAILED` \(e.g.,) Tj
+67.0 682.89 Td (family income exceeded, category mismatch, state mismatch\).) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 668.39 Td (Chapter 12: Scholarship Matching and Scoring) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 664.39 m 550.28 664.39 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 650.39 Td (The match score is a normalized mathematical representation of how closely a student) Tj
+45.0 638.89 Td (satisfies a scholarship's collective criteria.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 623.39 Td (12.1 Mathematical Formulation) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 609.39 Td ($$\\text{Evaluated Rules} = \\text{Passed Rules} + \\text{Failed Rules}$$) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 593.89 Td ($$\\text{Match Percentage} = \\begin{cases}) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 578.39 Td (100.0, & \\text{if Evaluated Rules} = 0 \\\\) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 562.89 Td (\\operatorname{round}\\left\(\\left\(\\frac{\\text{Passed Rules}}{\\text{Evaluated) Tj
+45.0 551.39 Td (Rules}}\\right\) \\times 100, 2\\right\), & \\text{if Evaluated Rules} > 0) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 535.89 Td (\\end{cases}$$) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 520.39 Td (12.2 Multi-Tier Sorting Hierarchy) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 506.39 Td (Results are sorted using a strict tuple-based ranking hierarchy:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 490.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 490.89 Td (**Status Priority \(Descending\):**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 476.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 476.39 Td (`ELIGIBLE` $\\to$ Rank 1) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 461.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 461.89 Td (`NEEDS_VERIFICATION` $\\to$ Rank 2) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 447.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 447.39 Td (`INELIGIBLE` $\\to$ Rank 3) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 432.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 432.89 Td (**Match Score \(Descending\):** Highest percentage match appears first.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 418.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 418.39 Td (**Alphabetical Title \(Ascending\):** Secondary tie-breaker for consistent UI) Tj
+67.0 406.89 Td (ordering.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 392.39 Td (12.3 Worked Scoring Example) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 378.39 Td (A student profile is evaluated against a Corporate Engineering Scholarship:) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 362.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 362.89 Td (**Criteria 1 \(Income\):** Student: Rs. 2.4 Lakhs, Limit: Rs. 5.0 Lakhs $\\to$) Tj
+67.0 351.39 Td (**PASSED**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 336.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 336.89 Td (**Criteria 2 \(Category\):** Scholarship: Open to all $\\to$ **PASSED**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 322.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 322.39 Td (**Criteria 3 \(Course\):** Student: B.Tech, Required: Engineering $\\to$ **PASSED**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 307.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 307.89 Td (**Criteria 4 \(Score\):** Student: 68%, Cut-off: 75% $\\to$ **FAILED**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 293.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 293.39 Td (**Criteria 5 \(Age\):** Unspecified in listing $\\to$ **NOT APPLICABLE**) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 278.89 Td ($$\\text{Passed} = 3, \\quad \\text{Failed} = 1, \\quad \\text{Evaluated} = 4$$) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 263.39 Td ($$\\text{Match Score} = \\left\(\\frac{3}{4}\\right\) \\times 100 = 75.00\\%$$) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 247.89 Td (**Result:** Status: `INELIGIBLE` \(due to score cutoff failure\), Match Score: $75.00\\%$.) Tj
+45.0 236.39 Td (The student sees that they satisfied 3 of 4 criteria, with a clear alert explaining the 75%) Tj
+45.0 224.89 Td (score cutoff requirement.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 209.39 Td (Chapter 13: Saved Scholarships Feature) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 205.39 m 550.28 205.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 191.39 Td (13.1 Architecture & Idempotency) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 177.39 Td (The Saved Scholarships feature allows students to bookmark opportunities for future) Tj
+45.0 165.89 Td (reference.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 150.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 150.39 Td (**Optimistic UI:** When the user clicks the bookmark icon on `ScholarshipCard.jsx`,) Tj
+67.0 138.89 Td (the UI updates instantly \(icon fills, counter increments\). An asynchronous HTTP) Tj
+67.0 127.38999999999999 Td (request is sent in the background. If the request fails, the UI reverts with an error) Tj
+67.0 115.88999999999999 Td (toast.) Tj
+ET Q
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 7092 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 20 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (**Database Idempotency:** The database enforces a **compound unique index** on) Tj
+67.0 760.39 Td (`\(user_id, scholarship_id\)`. The repository executes an `update_one` with) Tj
+67.0 748.89 Td (`upsert=True` and `$setOnInsert`, ensuring that duplicate clicks or rapid double-taps) Tj
+67.0 737.39 Td (never produce duplicate database records.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 722.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 722.89 Td (**Privacy Isolation:** Every query explicitly scopes searches by the authenticated) Tj
+67.0 711.39 Td (`user_id` extracted from the verified JWT token. No student can view, modify, or) Tj
+67.0 699.89 Td (delete another student's saved bookmarks.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 685.39 Td (Chapter 14: Application Tracker Feature) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 681.39 m 550.28 681.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 667.39 Td (14.1 Application State Machine) Tj ET
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 653.39 Td (The Application Tracker allows students to organize their scholarship applications across) Tj
+45.0 641.89 Td (six defined lifecycle stages:) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 570.89 505.28 59.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 619.39 Td ([ DRAFT ]           [ APPLIED ]           [ UNDER_REVIEW ]) Tj
+55.0 609.89 Td (                          ) Tj
+55.0 600.39 Td (                              [ ACCEPTED ]           [ AWARDED ]) Tj
+55.0 590.89 Td (                          ) Tj
+55.0 581.39 Td (                              [ REJECTED ]) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 558.89 Td (14.2 Lifecycle Transitions) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 544.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 544.89 Td (**`DRAFT`:** Student has initiated preparation, gathered documents, but has not yet) Tj
+67.0 533.39 Td (submitted on the official portal.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 518.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 518.89 Td (**`APPLIED`:** Student submitted the application. The system records the) Tj
+67.0 507.39 Td (`applied_date` and application reference/acknowledgement number.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 492.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 492.89 Td (**`UNDER_REVIEW`:** Application is currently being verified by government or trust) Tj
+67.0 481.39 Td (scrutiny committees.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 466.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 466.89 Td (**`ACCEPTED`:** Application successfully approved for funding.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 452.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 452.39 Td (**`REJECTED`:** Application rejected \(with optional reason notes for future) Tj
+67.0 440.89 Td (guidance\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 426.39 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 426.39 Td (**`AWARDED`:** Financial scholarship grant disbursed to student's bank account.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 411.89 Td (Chapter 15: Complete End-to-End Workflows) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 407.89 m 550.28 407.89 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 393.89 Td (Workflow 1: New Student Registration and Profile Creation) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 379.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 379.89 Td (Student navigates to `/auth` and enters Full Name, Email, and Password.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 365.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 365.39 Td (Frontend sends `POST /api/auth/register`. Backend hashes password with Argon2id and) Tj
+67.0 353.89 Td (creates user record.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 339.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 339.39 Td (Backend returns JWT token; frontend persists it to `localStorage` and redirects to) Tj
+67.0 327.89 Td (`/profile`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 313.39 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 313.39 Td (Student enters demographic and academic details \(12 fields\) and clicks "Save) Tj
+67.0 301.89 Td (Profile".) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 287.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 287.39 Td (Frontend sends `POST /api/student/profile` with Bearer token.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 272.89 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 272.89 Td (Backend persists student document; Dashboard profile score becomes 100%.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 258.39 Td (Workflow 2: Live AI Scholarship Discovery) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 244.39 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 244.39 Td (Student clicks "Discover Scholarships" on `/scholarships`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 229.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 229.89 Td (Frontend dispatches `POST /api/scholarship-discovery/discover`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 215.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 215.39 Td (Backend synthesizes search queries based on student's education, course, state, and) Tj
+67.0 203.89 Td (category.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 189.39 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 189.39 Td (Backend checks L1/L2 cache. On miss, it queries Serper API, scrubs commercial) Tj
+67.0 177.89 Td (domains, and parses HTML.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 163.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 163.39 Td (Rupee amounts and deadlines are extracted; 9 eligibility rules are evaluated per) Tj
+67.0 151.89 Td (result.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 137.39 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 137.39 Td (Match scores are computed, results sorted by status and score, and returned to) Tj
+67.0 125.88999999999999 Td (frontend.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 111.38999999999999 Td (7.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 111.38999999999999 Td (Cards render with match percentages, eligibility badges, and deadline indicators.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 96.88999999999999 Td (Workflow 3: Saving and Bookmarking an Opportunity) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 82.88999999999999 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 82.88999999999999 Td (Student clicks the bookmark icon on a displayed scholarship card.) Tj
+ET Q
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 5574 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 21 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (Card optimistically fills the bookmark icon.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 757.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 757.39 Td (Frontend sends `POST /api/saved-scholarships/`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 742.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 742.89 Td (Backend executes idempotent upsert in MongoDB Atlas.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 728.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 728.39 Td (Scholarship appears on `/saved` page.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 713.89 Td (Workflow 4: Tracking an Application to Awarded Status) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 699.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 699.89 Td (From `/saved` or `/scholarships`, student clicks "Track Application".) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 685.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 685.39 Td (Application record is created with status `DRAFT`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 670.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 670.89 Td (Student navigates to `/applications`, enters application reference ID, and sets) Tj
+67.0 659.39 Td (status to `APPLIED`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 644.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 644.89 Td (When funding is disbursed, student advances status to `AWARDED`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 630.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 630.39 Td (Dashboard metrics update to reflect total funds awarded.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 615.89 Td (Chapter 16: Installation and Local Setup) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 611.89 m 550.28 611.89 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 597.89 Td (16.1 Prerequisites) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 583.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 583.89 Td (**Operating System:** Windows 10/11, macOS, or Linux.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 569.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 569.39 Td (**Python:** Version 3.11 or higher installed and added to PATH.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 554.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 554.89 Td (**Node.js:** Version 18.0 or higher with `npm`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 540.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 540.39 Td (**MongoDB:** MongoDB Atlas free M0 cluster URI or local MongoDB Community Server.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 525.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 525.89 Td (**Git:** Version 2.30+.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 511.39 Td (16.2 Backend Setup \(Windows 11 PowerShell\)) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 289.89 505.28 211.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 490.39 Td (# 1. Navigate to backend directory) Tj
+55.0 480.89 Td (cd "d:\\Scholar AI\\backend") Tj
+55.0 471.39 Td () Tj
+55.0 461.89 Td (# 2. Create virtual environment) Tj
+55.0 452.39 Td (python -m venv .venv) Tj
+55.0 442.89 Td () Tj
+55.0 433.39 Td (# 3. Activate virtual environment) Tj
+55.0 423.89 Td (.\\.venv\\Scripts\\Activate.ps1) Tj
+55.0 414.39 Td () Tj
+55.0 404.89 Td (# 4. Upgrade pip and install dependencies) Tj
+55.0 395.39 Td (python -m pip install --upgrade pip) Tj
+55.0 385.89 Td (pip install -r requirements.txt) Tj
+55.0 376.39 Td () Tj
+55.0 366.89 Td (# 5. Configure environment variables \(.env\)) Tj
+55.0 357.39 Td (# Create backend\\.env with your MongoDB Atlas URI and Secret Key \(see Chapter 17\)) Tj
+55.0 347.89 Td () Tj
+55.0 338.39 Td (# 6. Run automated test suite to verify installation) Tj
+55.0 328.89 Td (pytest -v) Tj
+55.0 319.39 Td () Tj
+55.0 309.89 Td (# 7. Start FastAPI development server) Tj
+55.0 300.39 Td (uvicorn app.main:app --reload --port 8000) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 277.89 Td (16.3 Frontend Setup \(Windows 11 PowerShell\)) Tj ET
+Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 151.39 505.28 116.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 256.89 Td (# 1. Open a new PowerShell terminal and navigate to frontend directory) Tj
+55.0 247.39 Td (cd "d:\\Scholar AI\\frontend") Tj
+55.0 237.89 Td () Tj
+55.0 228.39 Td (# 2. Install Node dependencies) Tj
+55.0 218.89 Td (npm install) Tj
+55.0 209.39 Td () Tj
+55.0 199.89 Td (# 3. Verify Vite production build) Tj
+55.0 190.39 Td (npm run build) Tj
+55.0 180.89 Td () Tj
+55.0 171.39 Td (# 4. Start Vite local development server) Tj
+55.0 161.89 Td (npm run dev) Tj
+ET Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 139.39 Td (Open browser to `http://localhost:5173`.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 123.88999999999999 Td (Chapter 17: Environment Variables Reference) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 119.88999999999999 m 550.28 119.88999999999999 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 105.88999999999999 Td (17.1 Backend Environment Variables \(`backend/.env`\)) Tj ET
+Q
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 9731 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 22 of 24) Tj ET
+Q
+q
+0.93 0.95 0.98 rg 0.78 0.82 0.88 RG 0.5 w
+45.0 755.89 505.28 16.0 re B
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+51.0 760.39 Td (Variable Name) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+177.32 760.39 Td (Required) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+303.64 760.39 Td (Default Value) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+429.96 760.39 Td (Description) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 739.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 744.39 Td (`PROJECT_NAME`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 744.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 744.39 Td (`"Scholar AI"`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 744.39 Td (Application name displ..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 723.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 728.39 Td (`ENVIRONMENT`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 728.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 728.39 Td (`"development"`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 728.39 Td (`"development"`, `"sta..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 707.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 712.39 Td (`MONGODB_URL`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 712.39 Td (**Yes**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 712.39 Td (None) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 712.39 Td (MongoDB Atlas connecti..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 691.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 696.39 Td (`DATABASE_NAME`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 696.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 696.39 Td (`"scholar_ai"`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 696.39 Td (Target database name i..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 675.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 680.39 Td (`SECRET_KEY`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 680.39 Td (**Yes**) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 680.39 Td (None) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 680.39 Td (64+ char random hexade..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 659.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 664.39 Td (`ALGORITHM`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 664.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 664.39 Td (`"HS256"`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 664.39 Td (JWT token signature al..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 643.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 648.39 Td (`ACCESS_TOKEN_EXPIRE_M..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 648.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 648.39 Td (`10080` \(7 days\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 648.39 Td (JWT session validity d..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 627.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 632.39 Td (`SERPER_API_KEY`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 632.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 632.39 Td (`""` \(mock fallback\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 632.39 Td (API key from serper.de..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 611.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 616.39 Td (`CORS_ORIGINS`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 616.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 616.39 Td (`http://localhost:5173..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 616.39 Td (Comma-separated list o..) Tj ET
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 601.89 Td (17.2 Frontend Environment Variables \(`frontend/.env`\)) Tj ET
+Q
+q
+0.93 0.95 0.98 rg 0.78 0.82 0.88 RG 0.5 w
+45.0 571.89 505.28 16.0 re B
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+51.0 576.39 Td (Variable Name) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+177.32 576.39 Td (Required) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+303.64 576.39 Td (Default Value) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+429.96 576.39 Td (Description) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 555.89 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 560.39 Td (`VITE_API_URL`) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+177.32 560.39 Td (No) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+303.64 560.39 Td (`""` \(relative `/api`\)) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+429.96 560.39 Td (Production backend URL..) Tj ET
+Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 545.89 Td (Chapter 18: Testing and Quality Assurance) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 541.89 m 550.28 541.89 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 527.89 Td (The Scholar AI backend features an automated test suite containing **53 passing unit and) Tj
+45.0 516.39 Td (integration tests** built with `pytest` and `httpx`.) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 483.39 505.28 21.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 493.89 Td (============================== 53 passed in 4.82s ==============================) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 471.39 Td (18.1 Test Module Directory) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 457.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 457.39 Td (`test_auth_security.py` & `test_auth_login_resilience.py`: Multi-hasher verification) Tj
+67.0 445.89 Td (\(Argon2id + legacy Bcrypt\), 3-tier email normalization, duplicate registration) Tj
+67.0 434.39 Td (protection.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 419.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 419.89 Td (`test_eligibility_engine_enhancements.py`: 9-rule evaluation, course synonym) Tj
+67.0 408.39 Td (clustering, CGPA $\\times 9.5 \\leftrightarrow \\%$ conversion, boundary conditions.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 393.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 393.89 Td (`test_scholarship_extraction.py`: Serper snippet parsing, Lakh/Crore amount parser,) Tj
+67.0 382.39 Td (junk domain blacklist, deadline extraction, rejection of $< Rs. 500$ false positives.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 367.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 367.89 Td (`test_search_cache.py`: L1 in-memory LRU + L2 MongoDB TTL index, deterministic) Tj
+67.0 356.39 Td (SHA-256 cache key generation, circuit-breaker fallback on DB outage.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 341.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 341.89 Td (`test_saved_scholarships_api.py` & `test_saved_repository_duplicates.py`: Save/unsave) Tj
+67.0 330.39 Td (lifecycle, compound unique index deduplication, per-user privacy isolation.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 315.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 315.89 Td (`test_application_service.py` & `test_dashboard_deadlines.py`: Application state) Tj
+67.0 304.39 Td (machine \(DRAFT $\\to$ APPLIED $\\to$ UNDER_REVIEW $\\to$ ACCEPTED/REJECTED $\\to$) Tj
+67.0 292.89 Td (AWARDED\), deadline parsing, urgent deadline dashboard calculation.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 278.39 Td (Chapter 19: Deployment Guide) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 274.39 m 550.28 274.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 260.39 Td (19.1 Backend Deployment on Render) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 246.39 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 246.39 Td (Connect your GitHub repository to Render as a **Web Service**.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 231.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 231.89 Td (**Environment:** Python 3.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 217.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 217.39 Td (**Root Directory:** `backend`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 202.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 202.89 Td (**Build Command:** `pip install -r requirements.txt`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 188.39 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 188.39 Td (**Start Command:** `uvicorn app.main:app --host 0.0.0.0 --port $PORT`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 173.89 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 173.89 Td (Add environment variables: `MONGODB_URL`, `SECRET_KEY`, `SERPER_API_KEY`,) Tj
+67.0 162.39 Td (`ENVIRONMENT=production`.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 147.89 Td (19.2 Frontend Deployment on Vercel) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 133.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 133.89 Td (Import repository into Vercel as a Vite project.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 119.38999999999999 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 119.38999999999999 Td (**Root Directory:** `frontend`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 104.88999999999999 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 104.88999999999999 Td (**Build Command:** `npm run build`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 90.38999999999999 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 90.38999999999999 Td (**Output Directory:** `dist`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 75.88999999999999 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 75.88999999999999 Td (Set `VITE_API_URL` to your live Render backend URL.) Tj
+ET Q
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 8180 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 23 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (Configure `vercel.json` rewrites to ensure client-side routing fallback to) Tj
+67.0 760.39 Td (`/index.html`:) Tj
+ET Q
+q
+0.05 0.08 0.13 rg 0.18 0.22 0.30 RG 0.5 w
+45.0 709.39 505.28 40.5 re B
+BT /F4 7.2 Tf 0.90 0.94 0.98 rg
+55.0 738.89 Td ({) Tj
+55.0 729.39 Td (  "rewrites": [{ "source": "/\(.*\)", "destination": "/index.html" }]) Tj
+55.0 719.89 Td (}) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 697.39 Td (Chapter 20: Troubleshooting Guide) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 693.39 m 550.28 693.39 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 679.39 Td (20.1 Common Errors and Resolutions) Tj ET
+Q
+q
+0.93 0.95 0.98 rg 0.78 0.82 0.88 RG 0.5 w
+45.0 649.39 505.28 16.0 re B
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+51.0 653.89 Td (Symptom / Error) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+219.42666666666665 653.89 Td (Root Cause) Tj ET
+BT /F2 7.5 Tf 0.10 0.15 0.25 rg
+387.8533333333333 653.89 Td (Verified Resolution) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 633.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 637.89 Td (`ssl.SSLCertVerificationError:..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 637.89 Td (Windows root CA certificate bu..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 637.89 Td (Pass `tlsCAFile=certifi.where\..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 617.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 621.89 Td (`pwdlib.exceptions.UnknownHash..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 621.89 Td (User database record contains ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 621.89 Td (Implement dual-hasher `Passwor..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 601.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 605.89 Td (Login fails for matching email..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 605.89 Td (Email casing or trailing space..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 605.89 Td (Apply `.strip\(\).lower\(\)` i..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 585.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 589.89 Td (Profile strength displays 55% ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 589.89 Td (Dashboard checking legacy fiel..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 589.89 Td (Update `calculateProfileScore`..) Tj ET
+Q
+q
+1.0 1.0 1.0 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 569.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 573.89 Td (Extracted scholarship shows aw..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 573.89 Td (Extractor matched stray digit ..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 573.89 Td (Added Rs. 500 minimum floor ru..) Tj ET
+Q
+q
+0.97 0.98 0.99 rg 0.85 0.88 0.92 RG 0.5 w
+45.0 553.39 505.28 16.0 re B
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+51.0 557.89 Td (Duplicate bottom bar on deskto..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+219.42666666666665 557.89 Td (Mobile navigation bar renderin..) Tj ET
+BT /F1 7.0 Tf 0.18 0.22 0.28 rg
+387.8533333333333 557.89 Td (Removed duplicate `<nav class=..) Tj ET
+Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 543.39 Td (Chapter 21: Technical Decisions and Tradeoffs) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 539.39 m 550.28 539.39 l S
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 525.39 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 525.39 Td (**FastAPI vs. Django / Flask:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 510.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 510.89 Td (*Decision:* FastAPI.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 496.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 496.39 Td (*Tradeoff:* Django provides built-in admin and ORM, but is monolithic and synchronous) Tj
+67.0 484.89 Td (by default. FastAPI provides asynchronous request handling, native Pydantic) Tj
+67.0 473.39 Td (validation, and automatic OpenAPI generation, perfect for a decoupled React frontend.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 458.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 458.89 Td (**MongoDB Atlas vs. PostgreSQL:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 444.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 444.39 Td (*Decision:* MongoDB Atlas.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 429.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 429.89 Td (*Tradeoff:* Relational SQL databases enforce rigid tables, but web-scraped) Tj
+67.0 418.39 Td (scholarship structures vary drastically across providers. MongoDB's document model) Tj
+67.0 406.89 Td (gracefully handles polymorphic scholarship eligibility structures.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 392.39 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 392.39 Td (**Rule Engine vs. Machine Learning / LLM Classification:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 377.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 377.89 Td (*Decision:* Deterministic rule engine.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 363.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 363.39 Td (*Tradeoff:* While LLMs handle ambiguity, they suffer from hallucinations,) Tj
+67.0 351.89 Td (non-deterministic outputs, and high API latency. Financial eligibility requires 100%) Tj
+67.0 340.39 Td (auditable, legally accurate, and explainable evaluations.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 325.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 325.89 Td (**Vite vs. Create-React-App:**) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 311.39 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 311.39 Td (*Decision:* Vite 5.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 296.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 296.89 Td (*Tradeoff:* CRA is deprecated and slow. Vite provides sub-second HMR and) Tj
+67.0 285.39 Td (lightning-fast Rollup bundling.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 270.89 Td (Chapter 22: Limitations and Future Scope) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 266.89 m 550.28 266.89 l S
+Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 252.89 Td (22.1 Limitations) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 238.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 238.89 Td (**External Portal Application:** The platform cannot submit applications directly due) Tj
+67.0 227.39 Td (to government portal biometric and OTP constraints.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 212.89 Td (-) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 212.89 Td (**Scraper Heuristics:** Highly obfuscated JavaScript-rendered portals occasionally) Tj
+67.0 201.39 Td (require manual deadline verification.) Tj
+ET Q
+q
+BT /F2 9.5 Tf 0.18 0.24 0.38 rg
+45.0 186.89 Td (22.2 Future Roadmap) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 172.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 172.89 Td (**Document Vault & AI Verification:** OCR-based scanning of income certificates,) Tj
+67.0 161.39 Td (caste certificates, and marksheets using Tesseract / Vision AI to auto-populate) Tj
+67.0 149.89 Td (student profiles.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 135.39 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 135.39 Td (**WhatsApp & SMS Push Alerts:** Automated Twilio / WhatsApp Business notifications) Tj
+67.0 123.88999999999999 Td (for approaching scholarship deadlines.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 109.38999999999999 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 109.38999999999999 Td (**Direct Integration with State Portals:** Partnering with state welfare departments) Tj
+67.0 97.88999999999999 Td (for API-based scholarship verification.) Tj
+ET Q
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Length 5154 >>
+stream
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 805 m 550.28 805 l S
+BT /F2 7.5 Tf 0.35 0.40 0.50 rg
+45.0 810 Td (SCHOLAR AI -- ARCHITECTURE & IMPLEMENTATION GUIDE) Tj ET
+BT /F1 7.5 Tf 0.50 0.55 0.65 rg
+490.28 810 Td (VERSION 2.1.0) Tj ET
+Q
+q
+0.85 0.88 0.92 RG 0.5 w
+45.0 35 m 550.28 35 l S
+BT /F1 7.0 Tf 0.50 0.55 0.65 rg
+45.0 24 Td (Scholar AI Technical Documentation -- Proprietary & Confidential) Tj ET
+BT /F2 7.5 Tf 0.30 0.35 0.45 rg
+495.28 24 Td (Page 24 of 24) Tj ET
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 771.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 771.89 Td (**Multilingual Interface:** Support for Hindi, Marathi, Tamil, Telugu, Bengali, and) Tj
+67.0 760.39 Td (Kannada for rural access.) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 745.89 Td (Chapter 23: Complete Technical Interview Preparation) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 741.89 m 550.28 741.89 l S
+Q
+q BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+45.0 727.89 Td (*\(Refer to) Tj
+45.0 716.39 Td ([INTERVIEW_PREPARATION.md]\(file:///d:/Scholar%20AI/docs/INTERVIEW_PREPARATION.md\) for) Tj
+45.0 704.89 Td (complete 30s/1m/2m elevator pitches, technical Q&A, and in-depth production debugging) Tj
+45.0 693.39 Td (stories\).*) Tj
+ET Q
+q
+BT /F2 11.5 Tf 0.12 0.16 0.28 rg
+45.0 677.89 Td (Chapter 24: Technical Glossary) Tj ET
+0.85 0.88 0.92 RG 0.75 w
+45.0 673.89 m 550.28 673.89 l S
+Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 659.89 Td (1.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 659.89 Td (**Argon2id:** State-of-the-art hybrid password hashing algorithm offering peak) Tj
+67.0 648.39 Td (resistance against side-channel and GPU brute-force attacks.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 633.89 Td (2.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 633.89 Td (**Bcrypt:** Adaptive cryptographic hash function based on the Blowfish cipher;) Tj
+67.0 622.39 Td (supported as a legacy fallback.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 607.89 Td (3.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 607.89 Td (**BSON:** Binary JSON serialization format used by MongoDB to store documents and) Tj
+67.0 596.39 Td (represent rich data types like `ObjectId`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 581.89 Td (4.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 581.89 Td (**Compound Unique Index:** A multi-field database index enforcing uniqueness across) Tj
+67.0 570.39 Td (the combination of fields \(e.g., `user_id` + `scholarship_id`\).) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 555.89 Td (5.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 555.89 Td (**CORS \(Cross-Origin Resource Sharing\):** Security mechanism using HTTP headers to) Tj
+67.0 544.39 Td (tell browsers whether a web app can access resources from another origin.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 529.89 Td (6.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 529.89 Td (**Deterministic Rule Engine:** An evaluation system whose output is solely determined) Tj
+67.0 518.39 Td (by inputs and explicit logic, guaranteeing zero hallucination.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 503.89 Td (7.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 503.89 Td (**FastAPI:** High-performance, async-native Python web framework based on Starlette) Tj
+67.0 492.39 Td (and Pydantic.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 477.89 Td (8.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 477.89 Td (**Glassmorphism:** UI design trend featuring translucent frosted-glass card surfaces) Tj
+67.0 466.39 Td (created with CSS `backdrop-filter: blur\(\)`.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 451.89 Td (9.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 451.89 Td (**JWT \(JSON Web Token\):** Compact, URL-safe token format representing) Tj
+67.0 440.39 Td (cryptographically signed claims.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 425.89 Td (10.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 425.89 Td (**L1 / L2 Cache:** Multi-level caching architecture; L1 resides in fast Python) Tj
+67.0 414.39 Td (process memory, L2 in MongoDB with TTL auto-expiration.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 399.89 Td (11.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 399.89 Td (**Pydantic:** Data validation library using Python type annotations to enforce) Tj
+67.0 388.39 Td (runtime schemas.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 373.89 Td (12.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 373.89 Td (**PyMongo:** Official synchronous Python driver for MongoDB.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 359.39 Td (13.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 359.39 Td (**Serper API:** Fast Google Search engine API returning structured JSON search) Tj
+67.0 347.89 Td (results and snippets.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 333.39 Td (14.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 333.39 Td (**TTL Index \(Time-To-Live\):** MongoDB index that automatically deletes documents) Tj
+67.0 321.89 Td (after a specified duration.) Tj
+ET Q
+q
+BT /F2 8.5 Tf 0.39 0.40 0.95 rg
+51.0 307.39 Td (15.) Tj ET
+BT /F1 8.5 Tf 0.15 0.18 0.24 rg
+67.0 307.39 Td (**Vite:** Rapid frontend build tool leveraging native ES modules for instant hot) Tj
+67.0 295.89 Td (module replacement.) Tj
+ET Q
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >>
+   /MediaBox [0 0 595.28 841.89]
+   /Contents 54 0 R >>
+endobj
+xref
+0 56
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000283 00000 n 
+0000000353 00000 n 
+0000000428 00000 n 
+0000000506 00000 n 
+0000000574 00000 n 
+0000000647 00000 n 
+0000010687 00000 n 
+0000010868 00000 n 
+0000017912 00000 n 
+0000018095 00000 n 
+0000025205 00000 n 
+0000025388 00000 n 
+0000032525 00000 n 
+0000032708 00000 n 
+0000038492 00000 n 
+0000038675 00000 n 
+0000043377 00000 n 
+0000043560 00000 n 
+0000048960 00000 n 
+0000049143 00000 n 
+0000054396 00000 n 
+0000054579 00000 n 
+0000060345 00000 n 
+0000060528 00000 n 
+0000067604 00000 n 
+0000067787 00000 n 
+0000074845 00000 n 
+0000075028 00000 n 
+0000082412 00000 n 
+0000082595 00000 n 
+0000089418 00000 n 
+0000089601 00000 n 
+0000095493 00000 n 
+0000095676 00000 n 
+0000103615 00000 n 
+0000103798 00000 n 
+0000108043 00000 n 
+0000108226 00000 n 
+0000112395 00000 n 
+0000112578 00000 n 
+0000120999 00000 n 
+0000121182 00000 n 
+0000127705 00000 n 
+0000127888 00000 n 
+0000135033 00000 n 
+0000135216 00000 n 
+0000140843 00000 n 
+0000141026 00000 n 
+0000150810 00000 n 
+0000150993 00000 n 
+0000159226 00000 n 
+0000159409 00000 n 
+0000164616 00000 n 
+trailer
+<< /Size 56
+   /Root 1 0 R
+   /Info << /Title (Scholar AI Complete Documentation)
+            /Author (Scholar AI Engineering Team)
+            /Subject (Scholarship Discovery Architecture & Implementation)
+            /Creator (Scholar AI Doc Engine)
+         >>
+>>
+startxref
+164799
+%%EOF

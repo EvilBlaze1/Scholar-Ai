@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 
 from app.schemas import ScholarshipCreate
 from app.services.scholarship_service import (
@@ -17,7 +17,6 @@ router = APIRouter(
 @router.post("/")
 def create_scholarship(scholarship: ScholarshipCreate):
     scholarship_data = scholarship.model_dump()
-
     return register_scholarship(scholarship_data)
 
 
@@ -36,13 +35,14 @@ def get_scholarships(
     )
 
 
-@router.get("/{scholarship_id}")
+@router.get("/{scholarship_id:path}")
 def get_scholarship(scholarship_id: str):
     scholarship = fetch_scholarship(scholarship_id)
 
     if scholarship is None:
-        return {
-            "message": "Scholarship not found"
-        }
+        raise HTTPException(
+            status_code=404,
+            detail="Scholarship not found",
+        )
 
     return scholarship
